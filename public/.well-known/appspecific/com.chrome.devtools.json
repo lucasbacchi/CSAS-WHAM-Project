@@ -1,0 +1,6 @@
+{
+    "name": "CSAS-WHAM-Project DevTools Helper",
+    "version": "1.0",
+    "description": "Placeholder JSON to satisfy Chromium DevTools lookup and avoid routing 404s.",
+    "type": "devtools"
+}
