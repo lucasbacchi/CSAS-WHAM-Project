@@ -9,7 +9,7 @@ export function meta({}: Route.MetaArgs) {
         }
     ];
 }
-// test push
+
 export default function Home() {
     return (
         <main className="pt-16 p-6 container mx-auto">
