@@ -61,6 +61,11 @@ export default function Home() {
                 </div>
 
                 <figure className="order-first md:order-last flex justify-center">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Rome_Skyline_%288012016319%29.jpg"
+                        alt="Rome Skyline"
+                        style={{ width: "100%", height: "auto",  borderRadius: "12px" }}
+                    />
                     <svg
                         width="420"
                         height="280"
@@ -69,6 +74,7 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="rounded-xl shadow-lg"
                     >
+                        /*
                         <rect width="420" height="280" rx="12" fill="#F3F4F6" />
                         <g
                             transform="translate(20,20)"
@@ -100,8 +106,9 @@ export default function Home() {
                                 stroke="#9CA3AF"
                             />
                         </g>
+                        */
                         <text x="24" y="260" fontSize="12" fill="#6B7280">
-                            Illustration — Roman landscape (stylised)
+                            Roma / Rome - Lazio - Italia / Italy : https://commons.wikimedia.org/wiki/File:Rome_Skyline_(8012016319).jpg
                         </text>
                     </svg>
                 </figure>
@@ -208,7 +215,7 @@ export default function Home() {
                     contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)"
                     }}
-                    date="2011 - present"
+                    date="001"
                     iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff"
@@ -216,19 +223,18 @@ export default function Home() {
                     //icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Creative Director
+                        Pre Roman Britain
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        Miami, FL
+                        Context (if needed)
                     </h4>
                     <p>
-                        Creative Direction, User Experience, Visual Design,
-                        Project Management, Team Leading
+                        Some information
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2010 - 2011"
+                    date="000"
                     iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff"
@@ -240,19 +246,18 @@ export default function Home() {
                     //icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Art Director
+                        First Contact
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        San Francisco, CA
+                        Caesarian Incursions
                     </h4>
                     <p>
-                        Creative Direction, User Experience, Visual Design, SEO,
-                        Online Marketing
+                        summary / bullet list
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2008 - 2010"
+                    date="100"
                     iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff"
@@ -264,16 +269,18 @@ export default function Home() {
                     //icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Web Designer
+                        Claudius Invasion
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        Los Angeles, CA
+                        2 battles
                     </h4>
-                    <p>User Experience, Visual Design</p>
+                    <p>
+                        summary / bullet list
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2006 - 2008"
+                    date="200"
                     iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff"
@@ -285,18 +292,20 @@ export default function Home() {
                     //icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Web Designer
+                        Roman Rule Established
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        San Francisco, CA
+                        Londinium
                     </h4>
-                    <p>User Experience, Visual Design</p>
+                    <p>
+                        summary / bullet list
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="April 2013"
+                    date="300"
                     iconStyle={{
-                        background: "rgb(233, 30, 99)",
+                        background: "rgb(33, 150, 243)",
                         color: "#fff"
                     }}
                     contentStyle={{
@@ -306,18 +315,20 @@ export default function Home() {
                     //icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Content Marketing for Web, Mobile and Social Media
+                        Scotland Occupation Attempt
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        Online Course
+                        The scots
                     </h4>
-                    <p>Strategy, Social Media</p>
+                    <p>
+                        summary / bullet list
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="November 2012"
+                    date="400"
                     iconStyle={{
-                        background: "rgb(233, 30, 99)",
+                        background: "rgb(33, 150, 243)",
                         color: "#fff"
                     }}
                     contentStyle={{
@@ -327,18 +338,20 @@ export default function Home() {
                     //icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Agile Development Scrum Master
+                        End of Roman Rule
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        Certification
+                        no more Romans
                     </h4>
-                    <p>Creative Direction, User Experience, Visual Design</p>
+                    <p>
+                        summary / bullet list
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="2002 - 2006"
+                    date="500"
                     iconStyle={{
-                        background: "rgb(233, 30, 99)",
+                        background: "rgb(33, 150, 243)",
                         color: "#fff"
                     }}
                     contentStyle={{
@@ -348,13 +361,14 @@ export default function Home() {
                     //icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Bachelor of Science in Interactive Digital Media Visual
-                        Imaging
+                        Post Roman Period
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        Bachelor Degree
+                        All roads lead to London
                     </h4>
-                    <p>Creative Direction, Visual Design</p>
+                    <p>
+                        summary / bullet list
+                    </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </main>
