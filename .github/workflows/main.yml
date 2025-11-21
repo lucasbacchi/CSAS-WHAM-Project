@@ -31,7 +31,7 @@ jobs:
     - name: 📂 Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
-        server: britainfall2025.reclaim.hosting
-        username: britain2fall2025
-        password: ${{ secrets.password }}
-        local-dir: dist
+        server: britainfall2025.witcsas.reclaim.hosting
+        username: britain2fall2025@britainfall2025.wit.csas.reclaim.hosting
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: build/client
