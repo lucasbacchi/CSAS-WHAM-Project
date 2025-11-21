@@ -87,7 +87,7 @@ export default function Home() {
                                 width="90"
                                 height="60"
                                 rx="6"
-                                fill="#E5E7EB"
+                                fill="#55E7EB"
                                 stroke="#9CA3AF"
                             />
                             <rect
@@ -96,7 +96,7 @@ export default function Home() {
                                 width="90"
                                 height="60"
                                 rx="6"
-                                fill="#E5E7EB"
+                                fill="#55E7EB"
                                 stroke="#9CA3AF"
                             />
                         </g>
