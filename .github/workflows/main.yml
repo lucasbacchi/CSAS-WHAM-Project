@@ -4,8 +4,23 @@ on:
       - main
     types:
       - closed
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
 
-name: 🚀 Deploy Vite React site on push to main
+
+name: 🚀 Deploy via FTP on push to main
 
 jobs:
   web-deploy:
