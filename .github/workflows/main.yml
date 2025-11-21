@@ -1,53 +1,52 @@
 on:
-  pull_request:
-    branches:
-      - main
-    types:
-      - closed
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
-        type: choice
-        options:
-        - info
-        - warning
-        - debug
-
+    pull_request:
+        branches:
+            - main
+        types:
+            - closed
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+        inputs:
+            logLevel:
+                description: "Log level"
+                required: true
+                default: "warning"
+                type: choice
+                options:
+                    - info
+                    - warning
+                    - debug
 
 name: 🚀 Deploy via FTP on push to main
 
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
-    runs-on: ubuntu-latest
+    web-deploy:
+        name: 🎉 Deploy
+        runs-on: ubuntu-latest
 
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+        steps:
+            - name: 🚚 Get latest code
+              uses: actions/checkout@v4
 
-    - name: 🔧 Use Node.js 20
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        cache: 'npm'
+            - name: 🔧 Use Node.js 20
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+                  cache: "npm"
 
-    - name: 📦 Install dependencies
-      run: npm install
+            - name: 📦 Install dependencies
+              run: npm install
 
-    - name: 🔨 Build Vite Project
-      run: npm run build
+            - name: 🔨 Build Vite Project
+              run: npm run build
 
-    - name: 📂 Deploy via FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
-      with:
-        server: britainfall2025.witcsas.reclaim.hosting
-        username: britain2fall2025@britainfall2025.witcsas.reclaim.hosting
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: build/client/
-        protocol: ftps
+            - name: 📂 Deploy via FTP
+              uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+              with:
+                  server: britainfall2025.witcsas.reclaim.hosting
+                  username: britain2fall2025@britainfall2025.witcsas.reclaim.hosting
+                  password: ${{ secrets.FTP_PASSWORD }}
+                  local-dir: build/client/
+                  protocol: ftps
