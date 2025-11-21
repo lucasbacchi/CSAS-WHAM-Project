@@ -50,3 +50,4 @@ jobs:
         username: britain2fall2025@britainfall2025.wit.csas.reclaim.hosting
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/client/
+        protocol: ftps
