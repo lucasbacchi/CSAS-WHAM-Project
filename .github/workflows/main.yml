@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - main
+
+name: 🚀 Deploy Vite React site on push to main
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    - name: 🔧 Use Node.js 18
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: 📦 Install dependencies
+      run: npm install
+
+    - name: 🔨 Build Vite Project
+      run: npm run build
+
+    - name: 📂 Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+      with:
+        server: britainfall2025.reclaim.hosting
+        username: britain2fall2025
+        password: ${{ secrets.password }}
+        local-dir: dist
