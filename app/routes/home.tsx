@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
 import "react-vertical-timeline-component/style.min.css";
-import {NavLink} from "react-router";
+import { NavLink } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -54,11 +54,9 @@ export default function Home() {
                         >
                             Vindolanda Trust
                         </a>
-                        <a
-                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                        >
+                        <a className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90">
                             <NavLink to="/timeline" end>
-                            The Timeline
+                                The Timeline
                             </NavLink>
                         </a>
                     </div>
@@ -68,7 +66,11 @@ export default function Home() {
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg/640px-Vindolanda_bathhouse_-_2007-05-19.jpg"
                         alt="Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/User:Voice_of_Clam"
-                        style={{ width: "100%", height: "auto",  borderRadius: "12px" }}
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            borderRadius: "12px"
+                        }}
                     />
                     <svg
                         width="420"
@@ -78,7 +80,7 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="rounded-xl shadow-lg"
                     >
-{/*
+                        {/*
                         <rect width="420" height="280" rx="12" fill="#F3F4F6" />
                         <g
                             transform="translate(20,20)"
@@ -171,15 +173,14 @@ export default function Home() {
                 <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
                     <h3 className="text-xl font-semibold">Why It Matters</h3>
                     <p>
-                    Studying Roman Britain helps us understand contacts between
-                    imperial systems and local communities, technological
-                    transfer, and changing landscapes. Archaeology connects
-                    material culture to social histories and long-term
-                    environmental change.
+                        Studying Roman Britain helps us understand contacts
+                        between imperial systems and local communities,
+                        technological transfer, and changing landscapes.
+                        Archaeology connects material culture to social
+                        histories and long-term environmental change.
                     </p>
                 </article>
             </section>
-
         </main>
     );
 }

@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import type { Route } from "../../.react-router/types/app/routes/+types/home";
-import {NavLink} from "react-router";
+import { NavLink } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -35,9 +35,7 @@ export default function timeline() {
                         contentArrowStyle={{
                             borderRight: "7px solid  rgb(33, 150, 243)"
                         }}
-
                         date="001"
-
                         iconStyle={{
                             background: "rgb(96,22,158)",
                             color: "#fff"
@@ -52,10 +50,7 @@ export default function timeline() {
                             Context (if needed)
                         </h4>
 
-                        <p>
-                            Some information
-                        </p>
-
+                        <p>Some information</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -185,13 +180,9 @@ export default function timeline() {
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>
-            <div className="mt-6 flex flex-wrap gap-3" style={divStyle} >
-                <a
-                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                >
-                    <NavLink to={"/"}>
-                        Take me back
-                    </NavLink>
+            <div className="mt-6 flex flex-wrap gap-3" style={divStyle}>
+                <a className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90">
+                    <NavLink to={"/"}>Take me back</NavLink>
                 </a>
             </div>
         </main>
