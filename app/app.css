@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "./VerticalTimeline.css";
+@import "./VerticalTimelineElement.css";
 
 @theme {
     --font-sans:

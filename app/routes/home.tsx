@@ -1,10 +1,12 @@
 import type { Route } from "./+types/home";
+import "react-vertical-timeline-component/style.min.css";
+import {NavLink} from "react-router";
 
 export function meta({}: Route.MetaArgs) {
     return [
         { title: "Archaeology of Roman Britain" },
         {
-            name: "description",
+            name: "Brief description",
             content:
                 "An introduction to key sites, finds, and methods used to study Roman Britain."
         }
@@ -29,7 +31,7 @@ export default function Home() {
 
                     <div className="mt-6 flex flex-wrap gap-3">
                         <a
-                            className="inline-block rounded-full bg-blue-600 text-white px-4 py-2 text-sm hover:opacity-90"
+                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                             href="https://www.english-heritage.org.uk/"
                             target="_blank"
                             rel="noreferrer"
@@ -37,7 +39,7 @@ export default function Home() {
                             English Heritage
                         </a>
                         <a
-                            className="inline-block rounded-full border border-gray-200 px-4 py-2 text-sm hover:bg-gray-100"
+                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                             href="https://www.britishmuseum.org/"
                             target="_blank"
                             rel="noreferrer"
@@ -45,17 +47,29 @@ export default function Home() {
                             British Museum
                         </a>
                         <a
-                            className="inline-block rounded-full border border-gray-200 px-4 py-2 text-sm hover:bg-gray-100"
+                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                             href="https://www.vindolanda.com/"
                             target="_blank"
                             rel="noreferrer"
                         >
                             Vindolanda Trust
                         </a>
+                        <a
+                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
+                        >
+                            <NavLink to="/timeline" end>
+                            The Timeline
+                            </NavLink>
+                        </a>
                     </div>
                 </div>
 
                 <figure className="order-first md:order-last flex justify-center">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg/640px-Vindolanda_bathhouse_-_2007-05-19.jpg"
+                        alt="Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/User:Voice_of_Clam"
+                        style={{ width: "100%", height: "auto",  borderRadius: "12px" }}
+                    />
                     <svg
                         width="420"
                         height="280"
@@ -64,6 +78,7 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         className="rounded-xl shadow-lg"
                     >
+{/*
                         <rect width="420" height="280" rx="12" fill="#F3F4F6" />
                         <g
                             transform="translate(20,20)"
@@ -95,9 +110,10 @@ export default function Home() {
                                 stroke="#9CA3AF"
                             />
                         </g>
-                        <text x="24" y="260" fontSize="12" fill="#6B7280">
-                            Illustration — Roman landscape (stylised)
+                        <text fontSize="20" fill="#6B7280">
+                            Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/User:Voice_of_Clam
                         </text>
+                                                */}
                     </svg>
                 </figure>
             </section>
@@ -151,47 +167,19 @@ export default function Home() {
                 </article>
             </section>
 
-            <section className="mt-10 prose dark:prose-invert">
-                <h2>Why It Matters</h2>
-                <p>
+            <section className="rounded-lg p-6">
+                <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
+                    <h3 className="text-xl font-semibold">Why It Matters</h3>
+                    <p>
                     Studying Roman Britain helps us understand contacts between
                     imperial systems and local communities, technological
                     transfer, and changing landscapes. Archaeology connects
                     material culture to social histories and long-term
                     environmental change.
-                </p>
-
-                <h2>Further Reading</h2>
-                <ul>
-                    <li>
-                        <a
-                            href="https://www.english-heritage.org.uk/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            English Heritage
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.britishmuseum.org/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            The British Museum
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.vindolanda.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Vindolanda Trust
-                        </a>
-                    </li>
-                </ul>
+                    </p>
+                </article>
             </section>
+
         </main>
     );
 }
