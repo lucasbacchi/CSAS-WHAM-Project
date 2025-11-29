@@ -22,9 +22,17 @@ export default function timeline() {
         justifyContent: "center",
         paddingBottom: "20px"
     };
+    const h1Style = {
+        display: "flex",
+        justifyContent: "center",
+        fontSize: "30px",
+        paddingTop: "20px"
+    }
+    const h3Style = {fontSize: "20px"};
     return (
         <main>
-            <div className="mt-6 flex flex-wrap gap-3">
+            <h1 style={h1Style} >A Brief Timeline Of Roman History</h1>
+            <div style={divStyle} className="mt-6 flex flex-wrap gap-3">
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -42,7 +50,7 @@ export default function timeline() {
                         }}
                         //icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             Pre Roman Britain
                         </h3>
 
@@ -65,7 +73,7 @@ export default function timeline() {
                         }}
                         //icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             First Contact
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
@@ -86,7 +94,7 @@ export default function timeline() {
                         }}
                         //icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             Claudius Invasion
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
@@ -107,7 +115,7 @@ export default function timeline() {
                         }}
                         //icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             Roman Rule Established
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
@@ -128,7 +136,7 @@ export default function timeline() {
                         }}
                         //icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             Scotland Occupation Attempt
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
@@ -149,7 +157,7 @@ export default function timeline() {
                         }}
                         //icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             End of Roman Rule
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
@@ -170,7 +178,7 @@ export default function timeline() {
                         }}
                         //icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 style={h3Style} className="vertical-timeline-element-title">
                             Post Roman Period
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
