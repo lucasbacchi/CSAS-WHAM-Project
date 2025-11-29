@@ -43,7 +43,7 @@ export default function timeline() {
                         contentArrowStyle={{
                             borderRight: "7px solid  rgb(33, 150, 243)"
                         }}
-                        date="001"
+                        date="Before 43 CE"
                         iconStyle={{
                             background: "rgb(96,22,158)",
                             color: "#fff"
@@ -51,18 +51,20 @@ export default function timeline() {
                         //icon={<WorkIcon />}
                     >
                         <h3 style={h3Style} className="vertical-timeline-element-title">
-                            Pre Roman Britain
+                            <a href={"https://www.english-heritage.org.uk/learn/story-of-england/prehistory/"}>
+                                Pre-Roman Britain
+                            </a>
                         </h3>
 
                         <h4 className="vertical-timeline-element-subtitle">
-                            Context (if needed)
+                            From around 900,000 years ago to 43 CE.
                         </h4>
 
-                        <p>Some information</p>
+                        <p>During this period there were large independent tribal groups which were led by powerful kings and queens. These tribal groups maintained their own territories and resources.</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="000"
+                        date="55 BCE"
                         iconStyle={{
                             background: "rgb(96,22,158)",
                             color: "#fff"
@@ -74,16 +76,22 @@ export default function timeline() {
                         //icon={<WorkIcon />}
                     >
                         <h3 style={h3Style} className="vertical-timeline-element-title">
-                            First Contact
+                            <a href={"https://www.english-heritage.org.uk/learn/story-of-england/romans/romans-introduction/"}>
+                                First Contact
+                            </a>
+
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
-                            Caesarian Incursions
+                            Caesarian Incursions 55 and 54 BCE.
                         </h4>
-                        <p>summary / bullet list</p>
+                        <p>Julius Caesar took two expeditionary forces into early Britain. During these incursions the Romans gained knowledge of the valuable resources found in southern Britain.
+                            They eventually negotiated a peace deal which advantaged the Romans. This led to the development of political and trading relationships amount some of the southern tribes and Rome
+                            though the northern tribes were largely wary and opposed.
+                        </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="100"
+                        date="43 CE"
                         iconStyle={{
                             background: "rgb(96,22,158)",
                             color: "#fff"
@@ -95,12 +103,17 @@ export default function timeline() {
                         //icon={<WorkIcon />}
                     >
                         <h3 style={h3Style} className="vertical-timeline-element-title">
-                            Claudius Invasion
+                            <a href={"https://www.english-heritage.org.uk/learn/story-of-england/romans/invasion/"}>
+                                Claudius Invasion
+                            </a>
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
-                            2 battles
+                            Emperor Claudius began his rule and invasion.
                         </h4>
-                        <p>summary / bullet list</p>
+                        <p>
+                            Emperor Claudius began his rule and was looked down upon because he was slightly deaf and had a limp. Seeking to overcome his natural shortcomings he would pick up the plans of his murdered predecessor and continue the previous invasion preparations.
+                            This action would solidify his rule. On the back of the previous invasion preparations and its failures Claudius would find glory with a successful invasion. There were 2 major battles.
+                        </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -116,12 +129,16 @@ export default function timeline() {
                         //icon={<WorkIcon />}
                     >
                         <h3 style={h3Style} className="vertical-timeline-element-title">
-                            Roman Rule Established
+                            <a href={"https://www.english-heritage.org.uk/learn/story-of-england/romans/daily-life/"}>
+                                Roman Rule Established
+                            </a>
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">
-                            Londinium
+                            Londinium or London was established in this time.
                         </h4>
-                        <p>summary / bullet list</p>
+                        <p>
+                            During the Romanization of Britain the populace would begin living in urban settlements and towns. Place more here later
+                        </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
