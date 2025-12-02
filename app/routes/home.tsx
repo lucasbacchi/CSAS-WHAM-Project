@@ -1,5 +1,4 @@
 import type { Route } from "./+types/home";
-import "react-vertical-timeline-component/style.min.css";
 import { NavLink } from "react-router";
 import Timeline from "./timeline";
 

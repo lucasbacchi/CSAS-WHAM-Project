@@ -2,10 +2,8 @@ import {
     VerticalTimeline,
     VerticalTimelineElement
 } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
 import type { Route } from "../../.react-router/types/app/routes/+types/home";
 import { NavLink } from "react-router";
-import type { ReactElement } from "react";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -24,6 +22,7 @@ export default function Timeline() {
         subtitle: string;
         content: string;
         link?: string;
+        imageLink?: string;
     }> = [
         {
             date: "Before 43 CE",
@@ -31,7 +30,9 @@ export default function Timeline() {
             subtitle: "From around 900,000 years ago to 43 CE.",
             content:
                 "During this period there were large independent tribal groups which were led by powerful kings and queens. These tribal groups maintained their own territories and resources.",
-            link: "https://www.english-heritage.org.uk/learn/story-of-england/prehistory/"
+            link: "https://www.english-heritage.org.uk/learn/story-of-england/prehistory/",
+            imageLink:
+                "https://digitalmapsoftheancientworld.com/wp-content/uploads/2024/03/iron-age-old-sarum.jpg"
         },
         {
             date: "55 BCE",
@@ -114,9 +115,12 @@ export default function Timeline() {
                                     event.title
                                 )}
                             </h3>
-                            <h4 className="vertical-timeline-element-subtitle">
+                            <h4 className="vertical-timeline-element-subtitle mb-4">
                                 {event.subtitle}
                             </h4>
+                            {event.imageLink && (
+                                <img src={event.imageLink} alt="" />
+                            )}
                             <p>{event.content}</p>
                         </VerticalTimelineElement>
                     ))}
