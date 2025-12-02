@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 export default function HadriansWall() {
     return (
         <div className="flex flex-row p-6 gap-4 min-h-screen items-stretch">
@@ -74,6 +76,9 @@ export default function HadriansWall() {
                     alt="Map of Hadrian's Wall. Credit: https://commons.wikimedia.org/wiki/File:Hadrians_Wall_map.svg"
                     className="max-w-1/4"
                 />
+                <NavLink to="/" className="inline-block mt-4 text-blue-600">
+                    &larr; Back to Home
+                </NavLink>
             </div>
             <div className="max-w-1/3 min-w-1/4 aspect-4561/6842">
                 <iframe
