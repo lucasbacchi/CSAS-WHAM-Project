@@ -16,7 +16,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
     return (
-        <main className="pt-16 p-6 container mx-auto">
+        <>
             <section className="grid gap-8 md:grid-cols-2 items-center">
                 <div>
                     <h1 className="text-4xl font-semibold">
@@ -133,14 +133,6 @@ export default function Home() {
                 </article>
             </section>
             <Timeline />
-            <footer className="mt-12 text-center text-sm text-gray-500">
-                <p>&copy; 2025 Archaeology of Roman Britain</p>
-                <br />
-                <p>
-                    Created by Lucas Bacchi, Noah Yocum, Matt Chiu, and Keirston
-                    Artis for CSAS 2000 at Wentworth Institute of Technology.
-                </p>
-            </footer>
-        </main>
+        </>
     );
 }
