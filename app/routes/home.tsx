@@ -1,6 +1,7 @@
 import type { Route } from "./+types/home";
 import "react-vertical-timeline-component/style.min.css";
 import { NavLink } from "react-router";
+import Timeline from "./timeline";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -131,6 +132,15 @@ export default function Home() {
                     </p>
                 </article>
             </section>
+            <Timeline />
+            <footer className="mt-12 text-center text-sm text-gray-500">
+                <p>&copy; 2025 Archaeology of Roman Britain</p>
+                <br />
+                <p>
+                    Created by Lucas Bacchi, Noah Yocum, Matt Chiu, and Keirston
+                    Artis for CSAS 2000 at Wentworth Institute of Technology.
+                </p>
+            </footer>
         </main>
     );
 }
