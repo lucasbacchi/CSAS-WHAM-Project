@@ -87,7 +87,7 @@ export default function Timeline() {
     const iconStyle = { background: "rgb(96,22,158)", color: "#fff" } as const;
 
     return (
-        <main>
+        <>
             <h1 className="flex justify-center text-3xl p-6">
                 A Brief Timeline Of Roman History
             </h1>
@@ -130,6 +130,6 @@ export default function Timeline() {
                     Take me home
                 </NavLink>
             </div>
-        </main>
+        </>
     );
 }

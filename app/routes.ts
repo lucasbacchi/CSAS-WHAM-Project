@@ -8,6 +8,7 @@ import {
 export default [
     layout("layout.tsx", [
         index("routes/home.tsx"),
-        route("timeline", "./routes/timeline.tsx")
+        route("timeline", "./routes/timeline.tsx"),
+        route("hadrians-wall", "./routes/hadriansWall.tsx")
     ])
 ] satisfies RouteConfig;
