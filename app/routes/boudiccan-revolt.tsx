@@ -42,6 +42,18 @@ export default function BoudiccanRevolt() {
                     governor Suetonius Paulinus at the Battle of Watling Street.
                 </p>
 
+                <p className="mb-4">
+                    Though ultimately defeated, Boudicca's rebellion had
+                    significant consequences for Roman strategy in Britain. The
+                    brutality of Suetonius Paulinus's suppression prompted Rome
+                    to recall him and adopt a more conciliatory approach.
+                    Subsequent Roman governors integrated British elites into
+                    the administrative structure, offering them wealth and
+                    prestige in exchange for loyalty. This shift in policy
+                    proved more effective than military domination alone in
+                    securing Roman control over Britain.
+                </p>
+
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
                 <ul className="list-disc list-inside mb-4">
                     <li>

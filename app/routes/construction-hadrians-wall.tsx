@@ -32,9 +32,15 @@ export default function ConstructionHadriansWall() {
                     They stopped trying to conquer the whole island and decided
                     to fortify their existing position. Emperor Hadrian visited
                     Britain personally in AD 122. He was famous for traveling
-                    his empire. The wall was intended not only to serve a
-                    defensive purpose, but also to separate the Romans from the
-                    barbarians and control cross-border movement/taxation.
+                    his empire to inspect and improve his provinces. The wall
+                    was intended not only to serve a defensive purpose against
+                    northern raids, but also to separate the Romans from the
+                    barbarian Picts and Caledonians, and to control cross-border
+                    movement and tax collection. The wall's construction
+                    required significant resources, labor, and
+                    coordination—thousands of workers including soldiers,
+                    slaves, and local laborers worked for years to complete the
+                    massive project.
                 </p>
 
                 <p className="mb-4">

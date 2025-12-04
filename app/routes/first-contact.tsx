@@ -37,6 +37,17 @@ export default function FirstContact() {
                     though the northern tribes were largely wary and opposed.
                 </p>
 
+                <p className="mb-4">
+                    Though Caesar's invasions were not followed by immediate
+                    conquest, they established Roman military superiority and
+                    opened diplomatic channels with British tribes. These early
+                    contacts would lay the groundwork for the full-scale
+                    invasion nearly a century later under Emperor Claudius.
+                    Caesar's expeditions demonstrated that Britain could be
+                    defeated militarily and was worth the effort, making it an
+                    eventual target for Roman imperial ambitions.
+                </p>
+
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
                 <ul className="list-disc ml-6 mb-4">
                     <li>

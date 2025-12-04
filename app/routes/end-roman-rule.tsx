@@ -37,6 +37,24 @@ export default function EndRomanRule() {
                     British cities to "look to their own defences."
                 </p>
 
+                <p className="mb-4">
+                    This event marked the official end of Roman Britain, though
+                    the process of withdrawal had been gradual. Roman
+                    administrative structures, towns, and economic systems that
+                    had flourished for nearly four centuries began to collapse.
+                    The legions departed, fortifications were abandoned, and
+                    Romano-British civilization fragmented into smaller regional
+                    kingdoms. Britain entered the early medieval period, where
+                    Germanic peoples gradually migrated and settled, especially
+                    in the east. Many Roman achievements—roads, buildings,
+                    administrative practices—eventually fell into disrepair,
+                    though their influence would persist in place names,
+                    Christianity, and cultural memory. The departure of Rome
+                    from Britain was less a sudden end and more the final
+                    acknowledgment of a relationship that had already
+                    substantially declined over the previous decades.
+                </p>
+
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
                 <ul className="list-disc list-inside mb-4">
                     <li>

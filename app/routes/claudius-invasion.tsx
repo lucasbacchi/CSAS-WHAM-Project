@@ -38,6 +38,17 @@ export default function ClaudiusInvasion() {
                     invasion. There were 2 major battles.
                 </p>
 
+                <p className="mb-4">
+                    The invasion forces crossed the Channel and quickly
+                    conquered the southeastern tribes. The Romans established a
+                    permanent presence, building forts and roads that would form
+                    the infrastructure of Roman Britain for the next 367 years.
+                    Claudius himself visited Britain to receive the surrender of
+                    the defeated tribes, cementing his status and popularity
+                    with the Roman people. This successful conquest marked the
+                    beginning of systematic Roman rule over Britain.
+                </p>
+
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
                 <ul className="list-disc list-inside mb-4">
                     <li>

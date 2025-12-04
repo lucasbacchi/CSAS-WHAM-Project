@@ -4,6 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import type { Route } from "../../.react-router/types/app/routes/+types/home";
 import { NavLink } from "react-router";
+import { useEffect } from "react";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -16,6 +17,27 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Timeline() {
+    useEffect(() => {
+        const hash = window.location.hash.slice(1);
+        if (hash) {
+            const scrollToElement = () => {
+                const element = document.getElementById(hash);
+                if (element) {
+                    // Calculate target scroll position with 100px space above
+                    const elementTop = element.getBoundingClientRect().top + window.scrollY;
+                    const targetScroll = elementTop - 50;
+                    
+                    window.scrollTo({ top: targetScroll, behavior: 'smooth' });
+                }
+            };
+            
+            // Initial attempt after timeline renders
+            setTimeout(scrollToElement, 300);
+            // Retry after a longer delay in case timeline is still loading
+            setTimeout(scrollToElement, 800);
+        }
+    }, []);
+
     const events: Array<{
         date: string;
         title: string;
@@ -186,7 +208,7 @@ export default function Timeline() {
                     {events.map((event) => (
                         <VerticalTimelineElement
                             key={`${event.date}-${event.title}`}
-                            id={event.detailPage?.replace('/', '') || event.title.toLowerCase().replace(/\s+/g, '-')}
+                            id={event.detailPage?.slice(1) || event.title.toLowerCase().replace(/\s+/g, '-')}
                             className={`vertical-timeline-element--${event.date}`}
                             date={event.date}
                             iconStyle={iconStyle}

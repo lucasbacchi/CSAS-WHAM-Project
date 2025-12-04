@@ -34,6 +34,16 @@ export default function PreRomanBritain() {
                     resources.
                 </p>
 
+                <p className="mb-4">
+                    The Iron Age Britons were skilled farmers, metalworkers, and
+                    warriors. They built impressive hill forts, developed
+                    complex trade networks, and created distinctive Celtic art.
+                    Society was organized around tribal hierarchies with
+                    nobility, warriors, and commoners. These independent tribes
+                    would eventually face Roman conquest, but their cultural
+                    legacy would persist long after the Romans left Britain.
+                </p>
+
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
                 <ul className="list-disc ml-6 mb-4">
                     <li>

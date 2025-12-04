@@ -23,6 +23,18 @@ export default function HadriansWall() {
                     military and administrative purposes, acting as a symbol of
                     Roman power and control.
                 </p>
+                <p className="mb-4">
+                    Beyond its military function, Hadrian's Wall served as a
+                    customs border where goods and people could be taxed and
+                    monitored. Civilian settlements flourished around the major
+                    forts, creating economic opportunities for traders,
+                    craftspeople, and service workers. The wall's maintenance
+                    required constant supply lines and repairs, stimulating
+                    local economic activity. Archaeological evidence reveals
+                    that the wall facilitated cultural exchange between Roman
+                    and native British peoples, with mixed-origin families
+                    living in the settlements near the fortifications.
+                </p>
                 <table className="table-auto border-collapse border border-gray-400 mb-4">
                     <thead>
                         <tr>

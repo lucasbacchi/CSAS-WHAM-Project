@@ -47,6 +47,18 @@ export default function SeveranCampaigns() {
                     remained at Hadrian's Wall.
                 </p>
 
+                <p className="mb-4">
+                    The Severan campaigns, though ultimately unsuccessful in
+                    conquering Scotland, demonstrated the limits of Roman
+                    military power in Britain. The effort exhausted resources
+                    and left the province weakened. Caracalla and Geta returned
+                    to Rome to consolidate power, and Scotland remained
+                    unconquered—a reminder that not all barbarian lands could be
+                    brought under Roman control. The campaigns also established
+                    York as an important military and administrative center for
+                    the remainder of Roman Britain.
+                </p>
+
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
                 <ul className="list-disc list-inside mb-4">
                     <li>

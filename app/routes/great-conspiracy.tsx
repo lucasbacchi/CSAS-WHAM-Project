@@ -31,7 +31,23 @@ export default function GreatConspiracy() {
                     three directions by the Picts, Scots, and Saxons. The event
                     exposed the vulnerabilities of Roman military control in
                     Britain and led to significant social and economic
-                    disruptions.
+                    disruptions. The Picts attacked from the north, the Scots
+                    from the west (across from Ireland), and the Saxons from the
+                    east by sea. This coordinated assault may have been
+                    deliberately planned or opportunistic, but it overwhelmed
+                    the depleted Roman garrison.
+                </p>
+
+                <p className="mb-4">
+                    The Great Conspiracy marked a turning point in Roman
+                    Britain's fortunes. Roman troops were withdrawn from
+                    Hadrian's Wall to defend the south, leaving the frontier
+                    vulnerable. Towns and villas were destroyed or abandoned.
+                    The event demonstrated that Rome could no longer adequately
+                    defend the province and foreshadowed the final withdrawal of
+                    legions just decades later. This crisis period saw increased
+                    Germanic settlement in the east and accelerated the decline
+                    of Roman authority.
                 </p>
 
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
