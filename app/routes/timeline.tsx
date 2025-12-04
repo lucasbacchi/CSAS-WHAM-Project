@@ -22,6 +22,7 @@ export default function Timeline() {
         subtitle: string;
         content: string;
         link?: string;
+        detailPage?: string;
         imageLink?: string;
     }> = [
         {
@@ -31,6 +32,7 @@ export default function Timeline() {
             content:
                 "During this period there were large independent tribal groups which were led by powerful kings and queens. These tribal groups maintained their own territories and resources.",
             link: "https://www.english-heritage.org.uk/learn/story-of-england/prehistory/",
+            detailPage: "/pre-roman-britain",
             imageLink:
                 "https://digitalmapsoftheancientworld.com/wp-content/uploads/2024/03/iron-age-old-sarum.jpg"
         },
@@ -41,6 +43,7 @@ export default function Timeline() {
             content:
                 "Julius Caesar took two expeditionary forces into early Britain. During these incursions the Romans gained knowledge of the valuable resources found in southern Britain. They eventually negotiated a peace deal which advantaged the Romans. This led to the development of political and trading relationships amount some of the southern tribes and Rome though the northern tribes were largely wary and opposed.",
             link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/romans-introduction/",
+            detailPage: "/first-contact",
             imageLink:
                 "https://i0.wp.com/militaryhistorynow.com/wp-content/uploads/2019/08/Pictures_of_English_History_Plate_III_-_The_Romans_Conquer_Britain.jpg"
         },
@@ -51,6 +54,7 @@ export default function Timeline() {
             content:
                 "Emperor Claudius began his rule and was looked down upon because he was slightly deaf and had a limp. Seeking to overcome his natural shortcomings he would pick up the plans of his murdered predecessor and continue the previous invasion preparations. This action would solidify his rule. On the back of the previous invasion preparations and its failures Claudius would find glory with a successful invasion. There were 2 major battles.",
             link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/invasion/",
+            detailPage: "/claudius-invasion",
             imageLink:
                 "https://www.usni.org/sites/default/files/Iacono-NH-ND-23%201%20Hero.jpg"
         },
@@ -61,6 +65,7 @@ export default function Timeline() {
             content:
                 "The Boudiccan Revolt was a major uprising against Roman rule in Britain led by Queen Boudicca of the Iceni tribe. The revolt was sparked by the mistreatment of Boudicca and her daughters following the death of her husband, King Prasutagus. The Romans had ignored his will, annexed his kingdom, and subjected Boudicca to public humiliation. In response, Boudicca united several tribes and launched a series of attacks on Roman settlements, including Camulodunum (Colchester), Londinium (London), and Verulamium (St Albans). The revolt caused significant destruction and loss of life before being ultimately suppressed by the Roman governor Suetonius Paulinus at the Battle of Watling Street.",
             link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/boudica-the-iceni-warrior-queen/",
+            detailPage: "/boudiccan-revolt",
             imageLink:
                 "https://cdn.mos.cms.futurecdn.net/NyVsZhibmAHs5VATqSsUVT-1200-80.jpg"
         },
@@ -69,8 +74,8 @@ export default function Timeline() {
             title: "Battle of Mons Graupius",
             subtitle: "Agricola and the Battle of Mons Graupius (AD 83-84)",
             content:
-                "The 'High Water Mark' of Roman expansion into Scotland (Caledonia). The Governor of Britain at the time, Gnaeus Julius Agricola, pushed the frontier far north into the Scottish Highlands and fought against the Caledonians. The short-term result was a Roman victory, but they did not hold the territory for long. Troops were withdrawn shortly after to fight elsewhere in the empire, and the Romans retreated to the line that would eventually become Hadrian’s Wall.",
-            link: "/mons-graupius",
+                "The 'High Water Mark' of Roman expansion into Scotland (Caledonia). The Governor of Britain at the time, Gnaeus Julius Agricola, pushed the frontier far north into the Scottish Highlands and fought against the Caledonians. The short-term result was a Roman victory, but they did not hold the territory for long. Troops were withdrawn shortly after to fight elsewhere in the empire, and the Romans retreated to the line that would eventually become Hadrian's Wall.",
+            detailPage: "/mons-graupius",
             imageLink:
                 "https://www.forcesnews.com/sites/default/files/Agricola%27s%20Army%20is%20drawn%20up.jpg"
         },
@@ -81,6 +86,7 @@ export default function Timeline() {
             content:
                 "Marks the shift from Roman expansion to Roman consolidation. They stopped trying to conquer the whole island and decided to fortify their existing position. Emperor Hadrian visited Britain personally in AD 122. He was famous for traveling his empire. The wall was intended not only to serve a defensive purpose, but also to separate the Romans from the barbarians and control cross-border movement/taxation. It stretched 73 miles (80 Roman miles) from the River Tyne (Newcastle) to the Solway Firth. Built mainly of stone in the east and turf in the west (later replaced by stone). Featured a 'Milecastle' every Roman mile and two turrets in between each milecastle. 14-17 major forts were built along the line of the wall to house troops. It remains the most significant monument of Roman Britain and defined the northern frontier for nearly 300 years.",
             link: "/hadrians-wall",
+            detailPage: "/construction-hadrians-wall",
             imageLink:
                 "https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/housesteads-roman-fort/housesteads-crags-hadrians-wall-c-roger-clegg-hwhl.jpg"
         },
@@ -105,10 +111,11 @@ export default function Timeline() {
         {
             date: "286-296 CE",
             title: "Carausian Revolt",
-            subtitle: 'The "British Empire" of Carausius',
+            subtitle: '"British Empire" of Carausius',
             content:
                 "A strange decade where Britain functioned as its own breakaway empire.",
             link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/carausius-and-the-late-third-century/",
+            detailPage: "/carausian-revolt",
             imageLink:
                 "https://upload.wikimedia.org/wikipedia/commons/f/fb/Antoninianus_Carausius_leg4-RIC_0069v.jpg"
         },
@@ -125,6 +132,7 @@ export default function Timeline() {
             content:
                 "Following the death of his father, Constantius Chlorus, in Eboracum (York), Constantine was proclaimed Emperor by the local troops. This event marked the beginning of Constantine's rise to power, eventually leading to his sole rule over the Roman Empire and his significant role in the spread of Christianity.",
             link: "https://www.historyofyork.org.uk/themes/constantine-the-great",
+            detailPage: "/proclamation-constantine",
             imageLink:
                 "https://upload.wikimedia.org/wikipedia/commons/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg"
         },
@@ -135,6 +143,7 @@ export default function Timeline() {
             content:
                 "A coordinated simultaneous attack on Roman Britain from three directions by the Picts, Scots, and Saxons. The event exposed the vulnerabilities of Roman military control in Britain and led to significant social and economic disruptions.",
             link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/late-4th-century-britain/the-great-conspiracy-2/",
+            detailPage: "/great-conspiracy",
             imageLink:
                 "https://labrujulaverde.b-cdn.net/en/wp-content/uploads/2024/07/LHomme_et_la_terre.hommenature_04-2.jpg"
         },
@@ -146,6 +155,7 @@ export default function Timeline() {
             content:
                 'The Empire was crumbling. Rome itself was under threat from Visigoths (sacked in 410 AD). Troops had been gradually withdrawn from Britain to protect Italy. The British towns, suffering from Saxon raids, wrote to Emperor Honorius asking for military support. The Emperor replied, telling the British cities to "look to their own defences."',
             link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/end-of-roman-britain/",
+            detailPage: "/end-roman-rule",
             imageLink:
                 "https://www.english-heritage.org.uk/siteassets/home/visit/inspire-me/why-did-the-romans-leave-britain/ic084_007---1200x630.jpg"
         }
@@ -185,11 +195,11 @@ export default function Timeline() {
                             <h3
                                 className={
                                     "vertical-timeline-element-title text-xl" +
-                                    (event.link ? " hover:underline" : "")
+                                    (event.detailPage ? " hover:underline" : "")
                                 }
                             >
-                                {event.link ? (
-                                    <a href={event.link}>{event.title}</a>
+                                {event.detailPage ? (
+                                    <NavLink to={event.detailPage}>{event.title}</NavLink>
                                 ) : (
                                     event.title
                                 )}
