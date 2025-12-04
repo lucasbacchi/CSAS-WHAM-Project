@@ -55,16 +55,35 @@ export default function Home() {
                             </NavLink>
 
                             <NavLink 
-                                to="geography-culture"
+                                to="geography"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-purple-500 to-purple-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-purple-600 hover:to-purple-700"
                             >
                                 <div className="flex items-center justify-between">
                                     <div>
                                         <h3 className="text-lg font-semibold text-white">
-                                            Geography and Culture
+                                            Geography of Roman Britain
                                         </h3>
                                         <p className="text-sm text-purple-100 mt-1">
-                                            Discover Roman Britain's landscape
+                                            Explore the landscape and resources
+                                        </p>
+                                    </div>
+                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+                            </NavLink>
+
+                            <NavLink 
+                                to="culture"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-pink-500 to-pink-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-pink-600 hover:to-pink-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            Culture of Roman Britain
+                                        </h3>
+                                        <p className="text-sm text-pink-100 mt-1">
+                                            Discover art, religion, and language
                                         </p>
                                     </div>
                                     <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
