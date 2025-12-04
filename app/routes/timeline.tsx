@@ -60,7 +60,7 @@ export default function Timeline() {
             subtitle: "The Iceni rebellion against Roman rule.",
             content:
                 "The Boudiccan Revolt was a major uprising against Roman rule in Britain led by Queen Boudicca of the Iceni tribe. The revolt was sparked by the mistreatment of Boudicca and her daughters following the death of her husband, King Prasutagus. The Romans had ignored his will, annexed his kingdom, and subjected Boudicca to public humiliation. In response, Boudicca united several tribes and launched a series of attacks on Roman settlements, including Camulodunum (Colchester), Londinium (London), and Verulamium (St Albans). The revolt caused significant destruction and loss of life before being ultimately suppressed by the Roman governor Suetonius Paulinus at the Battle of Watling Street.",
-            link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/boudicca-revolt/",
+            link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/boudica-the-iceni-warrior-queen/",
             imageLink:
                 "https://cdn.mos.cms.futurecdn.net/NyVsZhibmAHs5VATqSsUVT-1200-80.jpg"
         },
@@ -97,7 +97,7 @@ export default function Timeline() {
             subtitle: "The Imperial Court in York",
             content:
                 "For a brief period, the capital of the Roman Empire was effectively in York, not Rome. Septimius Severus, an African-born Emperor, arrived in Britain with his two sons (Caracalla and Geta) and a massive army. The northern tribes (Caledonians and Maeatae) were raiding. Severus wanted to conquer Scotland once and for all, succeeding where previous attempts failed. It was a brutal guerrilla war. The Romans cut down forests and built bridges to root out the enemy. The tribes refused to meet in open battle. Severus fell ill and died in Eboracum (York) in AD 211. Succession: His death caused a power struggle between his sons. They abandoned the Scottish conquest, made peace with the tribes, and returned to Rome. The border remained at Hadrian’s Wall.",
-            link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/severan-campaigns/",
+            link: "https://www.archaeologyuk.org/resource/the-campaigns-of-septimius-severus-in-the-far-north-of-britain.html",
             imageLink:
                 "https://upload.wikimedia.org/wikipedia/commons/0/08/Portrait_of_family_of_Septimius_Severus_-_Altes_Museum_-_Berlin_-_Germany_2017.jpg"
         },
@@ -107,7 +107,7 @@ export default function Timeline() {
             subtitle: 'The "British Empire" of Carausius',
             content:
                 "A strange decade where Britain functioned as its own breakaway empire.",
-            link: "https://www.roman-britain.co.uk/places/carausian_revolt/",
+            link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/carausius-and-the-late-third-century/",
             imageLink:
                 "https://upload.wikimedia.org/wikipedia/commons/f/fb/Antoninianus_Carausius_leg4-RIC_0069v.jpg"
         },
@@ -123,7 +123,7 @@ export default function Timeline() {
             subtitle: "Constantine the Great is proclaimed Emperor in York.",
             content:
                 "Following the death of his father, Constantius Chlorus, in Eboracum (York), Constantine was proclaimed Emperor by the local troops. This event marked the beginning of Constantine's rise to power, eventually leading to his sole rule over the Roman Empire and his significant role in the spread of Christianity.",
-            link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/constantine/",
+            link: "https://www.historyofyork.org.uk/themes/constantine-the-great",
             imageLink:
                 "https://upload.wikimedia.org/wikipedia/commons/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg"
         },
@@ -133,7 +133,7 @@ export default function Timeline() {
             subtitle: "The barbarian attack that shook Roman Britain.",
             content:
                 "A coordinated simultaneous attack on Roman Britain from three directions by the Picts, Scots, and Saxons. The event exposed the vulnerabilities of Roman military control in Britain and led to significant social and economic disruptions.",
-            link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/later-romans/",
+            link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/late-4th-century-britain/the-great-conspiracy-2/",
             imageLink:
                 "https://labrujulaverde.b-cdn.net/en/wp-content/uploads/2024/07/LHomme_et_la_terre.hommenature_04-2.jpg"
         },
