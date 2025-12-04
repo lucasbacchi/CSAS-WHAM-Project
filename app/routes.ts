@@ -10,6 +10,7 @@ export default [
         index("routes/home.tsx"),
         route("timeline", "./routes/timeline.tsx"),
         route("hadrians-wall", "./routes/hadriansWall.tsx"),
+        route("mons-graupius", "./routes/mons-graupius.tsx"),
         route("vindolanda", "./routes/vindolanda.tsx"),
     ])
 ] satisfies RouteConfig;
