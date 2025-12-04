@@ -92,48 +92,24 @@ export default function Home() {
                                 </div>
                             </NavLink>
 
-                            {/* External Links */}
-                            <a
-                                href="https://www.britishmuseum.org/"
-                                target="_blank"
-                                rel="noreferrer"
+                            <NavLink 
+                                to="vindolanda-tablets"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-amber-500 to-amber-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-amber-600 hover:to-amber-700"
                             >
                                 <div className="flex items-center justify-between">
                                     <div>
                                         <h3 className="text-lg font-semibold text-white">
-                                            British Museum
+                                            Roman Artifacts
                                         </h3>
                                         <p className="text-sm text-amber-100 mt-1">
-                                            View Roman artifacts online
+                                            Explore the Vindolanda Tablets
                                         </p>
                                     </div>
                                     <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                     </svg>
                                 </div>
-                            </a>
-
-                            <a
-                                href="https://www.vindolanda.com/"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-green-500 to-green-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-green-700"
-                            >
-                                <div className="flex items-center justify-between">
-                                    <div>
-                                        <h3 className="text-lg font-semibold text-white">
-                                            Vindolanda Trust
-                                        </h3>
-                                        <p className="text-sm text-green-100 mt-1">
-                                            Visit the famous Roman fort
-                                        </p>
-                                    </div>
-                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                    </svg>
-                                </div>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

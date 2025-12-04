@@ -12,6 +12,7 @@ export default [
         route("hadrians-wall", "./routes/hadriansWall.tsx"),
         route("mons-graupius", "./routes/mons-graupius.tsx"),
         route("vindolanda", "./routes/vindolanda.tsx"),
+        route("vindolanda-tablets", "./routes/vindolanda-tablets.tsx"),
         route("geography", "./routes/geography.tsx"),
         route("culture", "./routes/culture.tsx"),
         route("pre-roman-britain", "./routes/pre-roman-britain.tsx"),
