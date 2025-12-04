@@ -35,6 +35,35 @@ export default function Timeline() {
             setTimeout(scrollToElement, 300);
             // Retry after a longer delay in case timeline is still loading
             setTimeout(scrollToElement, 800);
+
+            // Clear hash when user scrolls away
+            let scrollTimeout: number;
+            const handleScroll = () => {
+                clearTimeout(scrollTimeout);
+                scrollTimeout = window.setTimeout(() => {
+                    const element = document.getElementById(hash);
+                    if (element) {
+                        const rect = element.getBoundingClientRect();
+                        const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+                        
+                        // If element is no longer in viewport, clear the hash
+                        if (!isVisible) {
+                            window.history.replaceState(null, '', window.location.pathname);
+                            window.removeEventListener('scroll', handleScroll);
+                        }
+                    }
+                }, 150);
+            };
+
+            // Add scroll listener after initial scroll completes
+            setTimeout(() => {
+                window.addEventListener('scroll', handleScroll);
+            }, 1000);
+
+            return () => {
+                window.removeEventListener('scroll', handleScroll);
+                clearTimeout(scrollTimeout);
+            };
         }
     }, []);
 
