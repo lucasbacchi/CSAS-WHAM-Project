@@ -200,6 +200,7 @@
 
 .vertical-timeline-element-subtitle {
     margin: 0;
+    margin-bottom: 0.5em;
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date {

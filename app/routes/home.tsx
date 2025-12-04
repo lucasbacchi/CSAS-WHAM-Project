@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
-import "react-vertical-timeline-component/style.min.css";
-import {NavLink} from "react-router";
+import { NavLink } from "react-router";
+import Timeline from "./timeline";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -15,7 +15,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
     return (
-        <main className="pt-16 p-6 container mx-auto">
+        <>
             <section className="grid gap-8 md:grid-cols-2 items-center">
                 <div>
                     <h1 className="text-4xl font-semibold">
@@ -54,68 +54,20 @@ export default function Home() {
                         >
                             Vindolanda Trust
                         </a>
-                        <a
+                        <NavLink
+                            to="/timeline"
                             className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                         >
-                            <NavLink to="/timeline" end>
                             The Timeline
-                            </NavLink>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
 
-                <figure className="order-first md:order-last flex justify-center">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg/640px-Vindolanda_bathhouse_-_2007-05-19.jpg"
-                        alt="Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/User:Voice_of_Clam"
-                        style={{ width: "100%", height: "auto",  borderRadius: "12px" }}
-                    />
-                    <svg
-                        width="420"
-                        height="280"
-                        viewBox="0 0 420 280"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="rounded-xl shadow-lg"
-                    >
-{/*
-                        <rect width="420" height="280" rx="12" fill="#F3F4F6" />
-                        <g
-                            transform="translate(20,20)"
-                            stroke="#374151"
-                            strokeWidth="2"
-                            fill="none"
-                        >
-                            <path d="M0 180 L400 180" strokeLinecap="round" />
-                            <path
-                                d="M40 100 L80 140 L120 110 L160 150 L200 120 L240 160 L280 130"
-                                strokeLinecap="round"
-                            />
-                            <rect
-                                x="270"
-                                y="40"
-                                width="90"
-                                height="60"
-                                rx="6"
-                                fill="#55E7EB"
-                                stroke="#9CA3AF"
-                            />
-                            <rect
-                                x="30"
-                                y="30"
-                                width="90"
-                                height="60"
-                                rx="6"
-                                fill="#55E7EB"
-                                stroke="#9CA3AF"
-                            />
-                        </g>
-                        <text fontSize="20" fill="#6B7280">
-                            Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/User:Voice_of_Clam
-                        </text>
-                                                */}
-                    </svg>
-                </figure>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg"
+                    alt="Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/File:Vindolanda_bathhouse_-_2007-05-19.jpg"
+                    className="order-first md:order-last flex justify-center w-full h-auto rounded-lg shadow-md"
+                />
             </section>
 
             <section className="mt-12 grid gap-8 md:grid-cols-3">
@@ -171,15 +123,16 @@ export default function Home() {
                 <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
                     <h3 className="text-xl font-semibold">Why It Matters</h3>
                     <p>
-                    Studying Roman Britain helps us understand contacts between
-                    imperial systems and local communities, technological
-                    transfer, and changing landscapes. Archaeology connects
-                    material culture to social histories and long-term
-                    environmental change.
+                        Studying Roman Britain helps us understand contacts
+                        between imperial systems and local communities,
+                        technological transfer, and changing landscapes.
+                        Archaeology connects material culture to social
+                        histories and long-term environmental change.
                     </p>
                 </article>
             </section>
-
-        </main>
+            {//<Timeline />
+            }
+        </>
     );
 }
