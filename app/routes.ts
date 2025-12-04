@@ -12,6 +12,8 @@ export default [
         route("hadrians-wall", "./routes/hadriansWall.tsx"),
         route("mons-graupius", "./routes/mons-graupius.tsx"),
         route("vindolanda", "./routes/vindolanda.tsx"),
+        route("geography", "./routes/geography.tsx"),
+        route("culture", "./routes/culture.tsx"),
         route("pre-roman-britain", "./routes/pre-roman-britain.tsx"),
         route("first-contact", "./routes/first-contact.tsx"),
         route("claudius-invasion", "./routes/claudius-invasion.tsx"),
@@ -28,7 +30,6 @@ export default [
         ),
         route("great-conspiracy", "./routes/great-conspiracy.tsx"),
         route("end-roman-rule", "./routes/end-roman-rule.tsx"),
-        route("British-Resources", "./routes/resources.tsx"),
-
+        route("British-Resources", "./routes/resources.tsx")
     ])
 ] satisfies RouteConfig;
