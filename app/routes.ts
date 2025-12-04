@@ -28,6 +28,8 @@ export default [
             "./routes/proclamation-constantine.tsx"
         ),
         route("great-conspiracy", "./routes/great-conspiracy.tsx"),
-        route("end-roman-rule", "./routes/end-roman-rule.tsx")
+        route("end-roman-rule", "./routes/end-roman-rule.tsx"),
+        route("British-Resources", "./routes/resources.tsx"),
+
     ])
 ] satisfies RouteConfig;

@@ -36,7 +36,7 @@ export default function Home() {
                                 <a
                                     className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                                 >
-                                    <NavLink to={"resources"}>
+                                    <NavLink to={"British-Resources"}>
                                         Early Britain's Resources
                                     </NavLink>
                                 </a>
