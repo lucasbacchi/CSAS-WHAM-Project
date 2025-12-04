@@ -9,6 +9,7 @@ export default [
     layout("layout.tsx", [
         index("routes/home.tsx"),
         route("timeline", "./routes/timeline.tsx"),
-        route("hadrians-wall", "./routes/hadriansWall.tsx")
+        route("hadrians-wall", "./routes/hadriansWall.tsx"),
+        route("mons-graupius", "./routes/mons-graupius.tsx")
     ])
 ] satisfies RouteConfig;

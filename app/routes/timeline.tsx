@@ -70,6 +70,7 @@ export default function Timeline() {
             subtitle: "Agricola and the Battle of Mons Graupius (AD 83-84)",
             content:
                 "The 'High Water Mark' of Roman expansion into Scotland (Caledonia). The Governor of Britain at the time, Gnaeus Julius Agricola, pushed the frontier far north into the Scottish Highlands and fought against the Caledonians. The short-term result was a Roman victory, but they did not hold the territory for long. Troops were withdrawn shortly after to fight elsewhere in the empire, and the Romans retreated to the line that would eventually become Hadrian’s Wall.",
+            link: "/mons-graupius",
             imageLink:
                 "https://www.forcesnews.com/sites/default/files/Agricola%27s%20Army%20is%20drawn%20up.jpg"
         },
