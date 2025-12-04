@@ -51,10 +51,10 @@ export default function ProclamationConstantine() {
                 </ul>
 
                 <NavLink
-                    to="/timeline"
-                    className="inline-block mt-4 text-blue-600 hover:underline"
+                    to="/#proclamation-constantine"
+                    className="inline-block mt-4 text-blue-600"
                 >
-                    &larr; Back to Timeline
+                    &larr; Back to Home
                 </NavLink>
             </div>
 

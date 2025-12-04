@@ -186,6 +186,7 @@ export default function Timeline() {
                     {events.map((event) => (
                         <VerticalTimelineElement
                             key={`${event.date}-${event.title}`}
+                            id={event.detailPage?.replace('/', '') || event.title.toLowerCase().replace(/\s+/g, '-')}
                             className={`vertical-timeline-element--${event.date}`}
                             date={event.date}
                             iconStyle={iconStyle}
