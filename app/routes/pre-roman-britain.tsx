@@ -49,10 +49,10 @@ export default function PreRomanBritain() {
                 </ul>
 
                 <NavLink
-                    to="/timeline"
+                    to="/#pre-roman-britain"
                     className="inline-block mt-4 text-blue-600"
                 >
-                    &larr; Back to Timeline
+                    &larr; Back to Home
                 </NavLink>
             </div>
             <div className="max-w-1/3 min-w-1/4">
