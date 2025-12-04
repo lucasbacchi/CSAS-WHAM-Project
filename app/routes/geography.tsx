@@ -19,14 +19,27 @@ export default function Geography() {
                 </p>
             </div>
 
+            {/* Interactive Map */}
+            <div className="mb-12">
+                <h2 className="text-3xl font-semibold mb-4 text-center">
+                    Interactive Map of Roman Britain
+                </h2>
+                <div className="flex justify-center">
+                    <iframe 
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1LSHNzLcBU35NrgYdrKrKMBjRYcNQ0d0&ehbc=2E312F" 
+                        width="640" 
+                        height="480"
+                        className="rounded-lg shadow-lg w-full max-w-4xl"
+                        title="Interactive map of Roman Britain"
+                    />
+                </div>
+            </div>
+
             {/* Geography Section */}
             <section className="mb-12">
                 <h2 className="text-3xl font-semibold mb-4 border-b-2 pb-2">
                     Regional Geography and Resources
                 </h2>
-                <p className="text-sm mb-6 italic text-gray-600 dark:text-gray-400">
-                    Analysis by Keirston Artis
-                </p>
 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
