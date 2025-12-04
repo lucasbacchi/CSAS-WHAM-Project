@@ -113,7 +113,7 @@ export default function Timeline() {
             title: "Carausian Revolt",
             subtitle: '"British Empire" of Carausius',
             content:
-                "A strange decade where Britain functioned as its own breakaway empire.",
+                "Marcus Aurelius Carausius, a Roman naval commander, declared himself Emperor and ruled Britain as an independent breakaway empire for seven years. After being accused of keeping pirate plunder for himself, Carausius seized control of Britain and its powerful fleet, preventing Roman reconquest. He issued coins claiming equality with the legitimate emperors and strengthened coastal defenses. He was assassinated by his finance minister Allectus in 293 CE, who ruled for three more years until Britain was reconquered by Constantius Chlorus in 296 CE.",
             link: "https://www.roman-britain.co.uk/roman-conquest-and-occupation-of-britain/carausius-and-the-late-third-century/",
             detailPage: "/carausian-revolt",
             imageLink:
