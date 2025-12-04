@@ -75,7 +75,7 @@ export default function Home() {
 
                             <NavLink 
                                 to="culture"
-                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-green-500 to-green-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-pink-600 hover:to-pink-700"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-green-500 to-green-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-green-700"
                             >
                                 <div className="flex items-center justify-between">
                                     <div>
