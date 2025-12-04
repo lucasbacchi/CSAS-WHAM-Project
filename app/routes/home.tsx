@@ -30,36 +30,41 @@ export default function Home() {
                     </p>
 
                     <div className="mt-6 flex flex-wrap gap-3">
-                        <a
-                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                            href="https://www.english-heritage.org.uk/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            English Heritage
-                        </a>
-                        <a
-                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                            href="https://www.britishmuseum.org/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            British Museum
-                        </a>
-                        <a
-                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                            href="https://www.vindolanda.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Vindolanda Trust
-                        </a>
+                        <h1 className="text-3xl font-semibold">Learn about: </h1>
+                        <div className="mt-6 flex flex-wrap gap-3">
+
+                                <a
+                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
+                                >
+                                    <NavLink to={"resources"}>
+                                        Early Britain's Resources
+                                    </NavLink>
+                                </a>
+                                <a
+                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
+                                    href="https://www.britishmuseum.org/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    British Museum
+                                </a>
+                                <a
+                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
+                                    href="https://www.vindolanda.com/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Vindolanda Trust
+                                </a>
+                                {/*
                         <NavLink
                             to="/timeline"
                             className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                         >
                             The Timeline
-                        </NavLink>
+                        </NavLink>*/}
+
+                        </div>
                     </div>
                 </div>
 
@@ -70,7 +75,7 @@ export default function Home() {
                 />
             </section>
 
-            <section className="mt-12 grid gap-8 md:grid-cols-3">
+            {/*<section className="mt-12 grid gap-8 md:grid-cols-3">
                 <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
                     <h3 className="text-xl font-semibold">Key Sites</h3>
                     <ul className="mt-3 space-y-2 text-sm text-gray-700 dark:text-gray-300">
@@ -117,7 +122,7 @@ export default function Home() {
                         </li>
                     </ul>
                 </article>
-            </section>
+            </section>*/}
 
             <section className="rounded-lg p-6">
                 <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
@@ -131,8 +136,7 @@ export default function Home() {
                     </p>
                 </article>
             </section>
-            {//<Timeline />
-            }
+            <Timeline />
         </>
     );
 }

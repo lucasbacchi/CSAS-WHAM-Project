@@ -1,10 +1,10 @@
 import { NavLink } from "react-router";
 
-export default function MonsGraupius() {
+export default function Resources() {
     return (
         <div className="flex flex-row p-6 gap-4 min-h-screen items-stretch">
             <div>
-                <h2 className="text-2xl font-semibold mb-4">The Battle of Mons Graupius and Scotland Occupation Attempt</h2>
+                <h2 className="text-2xl font-semibold mb-4">The Wealth of Resources in Rome</h2>
                 <p className="text-lg mb-4">
                     The drive to conquer northern territory was led by Governor Gnaeus Julius Agricola, who arrived in Britain in 77 AD. Agricola spent years pushing up in the northern territory the Romans called Caledonia (modern day Scotland) in response to threats from powerful northern tribes such as the Brigantes, Caledonni, and Maeatae. He believed the only way to achieve peace was to conquer Caledonia and control the whole island.The Flavian Frontier and a line of temporary timber forts known as the Gask Ridge were built along the narrow waist of modern day Scotland in 79-83 AD.
                 </p>
