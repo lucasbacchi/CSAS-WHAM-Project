@@ -29,48 +29,92 @@ export default function Home() {
                         the past.
                     </p>
 
-                    <div className="mt-6 flex flex-wrap gap-3">
-                        <h1 className="text-3xl font-semibold">Learn about: </h1>
-                        <div className="mt-6 flex flex-wrap gap-3">
+                    <div className="mt-8">
+                        <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">
+                            Learn More About:
+                        </h2>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            {/* Internal Links */}
+                            <NavLink 
+                                to="British-Resources"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-blue-500 to-blue-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-blue-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            Early Britain's Resources
+                                        </h3>
+                                        <p className="text-sm text-blue-100 mt-1">
+                                            Explore the wealth of Roman Britain
+                                        </p>
+                                    </div>
+                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+                            </NavLink>
 
-                                <a
-                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                                >
-                                    <NavLink to={"British-Resources"}>
-                                        Early Britain's Resources
-                                    </NavLink>
-                                </a>
-                                <a
-                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                                >
-                                    <NavLink to={"geography-culture"}>
-                                        Geography and Culture
-                                    </NavLink>
-                                </a>
-                                <a
-                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                                    href="https://www.britishmuseum.org/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    British Museum
-                                </a>
-                                <a
-                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                                    href="https://www.vindolanda.com/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    Vindolanda Trust
-                                </a>
-                                {/*
-                        <NavLink
-                            to="/timeline"
-                            className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
-                        >
-                            The Timeline
-                        </NavLink>*/}
+                            <NavLink 
+                                to="geography-culture"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-purple-500 to-purple-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-purple-600 hover:to-purple-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            Geography and Culture
+                                        </h3>
+                                        <p className="text-sm text-purple-100 mt-1">
+                                            Discover Roman Britain's landscape
+                                        </p>
+                                    </div>
+                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+                            </NavLink>
 
+                            {/* External Links */}
+                            <a
+                                href="https://www.britishmuseum.org/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-amber-500 to-amber-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-amber-600 hover:to-amber-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            British Museum
+                                        </h3>
+                                        <p className="text-sm text-amber-100 mt-1">
+                                            View Roman artifacts online
+                                        </p>
+                                    </div>
+                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.vindolanda.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-green-500 to-green-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-green-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            Vindolanda Trust
+                                        </h3>
+                                        <p className="text-sm text-green-100 mt-1">
+                                            Visit the famous Roman fort
+                                        </p>
+                                    </div>
+                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
