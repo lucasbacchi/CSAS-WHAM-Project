@@ -75,7 +75,7 @@ export default function Home() {
 
                             <NavLink 
                                 to="culture"
-                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-pink-500 to-pink-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-pink-600 hover:to-pink-700"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-green-500 to-green-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-pink-600 hover:to-pink-700"
                             >
                                 <div className="flex items-center justify-between">
                                     <div>
@@ -175,17 +175,25 @@ export default function Home() {
                 </article>
             </section>*/}
 
-            <section className="rounded-lg p-6">
-                <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
-                    <h3 className="text-xl font-semibold">Why It Matters</h3>
-                    <p>
-                        Studying Roman Britain helps us understand contacts
-                        between imperial systems and local communities,
-                        technological transfer, and changing landscapes.
-                        Archaeology connects material culture to social
-                        histories and long-term environmental change.
-                    </p>
-                </article>
+            <section className="mt-12 mb-8">
+                <div className="bg-linear-to-r from-indigo-900 to-purple-800 rounded-lg p-8 shadow-xl text-white">
+                    <div className="flex items-start gap-4">
+                        <div className="shrink-0">
+                            <svg className="w-12 h-12 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <div className="flex-1">
+                            <h3 className="text-2xl font-bold mb-3">Why Study Roman Britain?</h3>
+                            <p className="text-lg leading-relaxed text-indigo-50">
+                                Studying Roman Britain reveals crucial insights into imperial expansion, cultural exchange, 
+                                and technological innovation. Through archaeological evidence, we understand how Roman and 
+                                Celtic societies interacted, how infrastructure transformed landscapes, and how material 
+                                culture reflects social change across nearly four centuries of occupation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <Timeline />
         </>
