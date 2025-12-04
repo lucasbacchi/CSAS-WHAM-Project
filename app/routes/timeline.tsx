@@ -74,7 +74,7 @@ export default function Timeline() {
             title: "Claudius Invasion",
             subtitle: "Emperor Claudius began his rule and invasion.",
             content:
-                "Emperor Claudius began his rule and was looked down upon because he was slightly deaf and had a limp. Seeking to overcome his natural shortcomings he would pick up the plans of his murdered predecessor and continue the previous invasion preparations. This action would solidify his rule. On the back of the previous invasion preparations and its failures Claudius would find glory with a successful invasion. There were 2 major battles.",
+                "Emperor Claudius began his rule and was looked down upon because he was slightly deaf and had a limp. Seeking to overcome his natural shortcomings and legitimize his rule, he initiated a major invasion of Britain in 43 CE. Though his predecessor Caligula had made an abortive attempt to reach Britain, Claudius organized a serious military campaign that successfully conquered the southeastern tribes and established permanent Roman presence.",
             link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/invasion/",
             detailPage: "/claudius-invasion",
             imageLink:
@@ -92,9 +92,9 @@ export default function Timeline() {
                 "https://cdn.mos.cms.futurecdn.net/NyVsZhibmAHs5VATqSsUVT-1200-80.jpg"
         },
         {
-            date: "83-84 CE",
+            date: "83 CE",
             title: "Battle of Mons Graupius",
-            subtitle: "Agricola and the Battle of Mons Graupius (AD 83-84)",
+            subtitle: "Agricola and the Battle of Mons Graupius (83 CE)",
             content:
                 "The 'High Water Mark' of Roman expansion into Scotland (Caledonia). The Governor of Britain at the time, Gnaeus Julius Agricola, pushed the frontier far north into the Scottish Highlands and fought against the Caledonians. The short-term result was a Roman victory, but they did not hold the territory for long. Troops were withdrawn shortly after to fight elsewhere in the empire, and the Romans retreated to the line that would eventually become Hadrian's Wall.",
             detailPage: "/mons-graupius",
