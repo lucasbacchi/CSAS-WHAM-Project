@@ -157,7 +157,7 @@ export default function Timeline() {
             link: "https://www.historyofyork.org.uk/themes/constantine-the-great",
             detailPage: "/proclamation-constantine",
             imageLink:
-                "https://upload.wikimedia.org/wikipedia/commons/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg"
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg/1430px-Statua_di_Costantino_ai_musei_capitolini.jpg"
         },
         {
             date: "367 CE",
