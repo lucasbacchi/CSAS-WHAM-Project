@@ -114,11 +114,16 @@ export default function Home() {
                     </div>
                 </div>
 
-                <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg"
-                    alt="Military bathhouse at Vindolanda. Credit: https://commons.wikimedia.org/wiki/File:Vindolanda_bathhouse_-_2007-05-19.jpg"
-                    className="order-first md:order-last flex justify-center w-full h-auto rounded-lg shadow-md"
-                />
+                <div className="order-first md:order-last">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg"
+                        alt="Military bathhouse at Vindolanda"
+                        className="w-full h-auto rounded-lg shadow-md"
+                    />
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 text-center italic">
+                        Military bathhouse at Vindolanda Roman fort near Hadrian's Wall. Credit: Wikimedia Commons
+                    </p>
+                </div>
             </section>
 
             {/*<section className="mt-12 grid gap-8 md:grid-cols-3">
