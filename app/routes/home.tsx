@@ -42,6 +42,13 @@ export default function Home() {
                                 </a>
                                 <a
                                     className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
+                                >
+                                    <NavLink to={"geography-culture"}>
+                                        Geography and Culture
+                                    </NavLink>
+                                </a>
+                                <a
+                                    className="inline-block rounded-full border border-gray-200 text-white px-4 py-2 text-sm hover:opacity-90"
                                     href="https://www.britishmuseum.org/"
                                     target="_blank"
                                     rel="noreferrer"
