@@ -28,12 +28,12 @@ export default function SeveranCampaigns() {
                 </h3>
 
                 <p className="mb-4">
-                    For a brief period, the capital of the Roman Empire was
-                    effectively in York, not Rome. Septimius Severus, an
-                    African-born Emperor, arrived in Britain with his two sons
-                    (Caracalla and Geta) and a massive army. The northern tribes
-                    (Caledonians and Maeatae) were raiding. Severus wanted to
-                    conquer Scotland once and for all, succeeding where previous
+                    For a brief period, the imperial court was based in York
+                    rather than Rome. Septimius Severus, an African-born
+                    Emperor, arrived in Britain with his two sons (Caracalla and
+                    Geta) and a massive army. The northern tribes (Caledonians
+                    and Maeatae) were raiding. Severus wanted to conquer
+                    Scotland once and for all, succeeding where previous
                     attempts failed.
                 </p>
 
@@ -41,7 +41,7 @@ export default function SeveranCampaigns() {
                     It was a brutal guerrilla war. The Romans cut down forests
                     and built bridges to root out the enemy. The tribes refused
                     to meet in open battle. Severus fell ill and died in
-                    Eboracum (York) in AD 211. His death caused a power struggle
+                    Eboracum (York) in 211 CE. His death caused a power struggle
                     between his sons. They abandoned the Scottish conquest, made
                     peace with the tribes, and returned to Rome. The border
                     remained at Hadrian's Wall.

@@ -28,6 +28,9 @@ export default function PreRomanBritain() {
                 </h3>
 
                 <p className="mb-4">
+                    While human habitation in Britain dates back approximately
+                    900,000 years, the organized tribal societies of Pre-Roman
+                    Britain emerged during the Iron Age (c. 800 BCE - 43 CE).
                     During this period there were large independent tribal
                     groups which were led by powerful kings and queens. These
                     tribal groups maintained their own territories and

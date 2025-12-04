@@ -30,7 +30,7 @@ export default function EndRomanRule() {
 
                 <p className="mb-4">
                     The Empire was crumbling. Rome itself was under threat from
-                    Visigoths (sacked in 410 AD). Troops had been gradually
+                    Visigoths (sacked in 410 CE). Troops had been gradually
                     withdrawn from Britain to protect Italy. The British towns,
                     suffering from Saxon raids, wrote to Emperor Honorius asking
                     for military support. The Emperor replied, telling the

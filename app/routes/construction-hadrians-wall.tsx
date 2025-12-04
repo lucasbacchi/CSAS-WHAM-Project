@@ -31,11 +31,11 @@ export default function ConstructionHadriansWall() {
                     Marks the shift from Roman expansion to Roman consolidation.
                     They stopped trying to conquer the whole island and decided
                     to fortify their existing position. Emperor Hadrian visited
-                    Britain personally in AD 122. He was famous for traveling
+                    Britain personally in 122 CE. He was famous for traveling
                     his empire to inspect and improve his provinces. The wall
                     was intended not only to serve a defensive purpose against
                     northern raids, but also to separate the Romans from the
-                    barbarian Picts and Caledonians, and to control cross-border
+                    barbarian Caledonian tribes, and to control cross-border
                     movement and tax collection. The wall's construction
                     required significant resources, labor, and
                     coordination—thousands of workers including soldiers,

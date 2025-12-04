@@ -63,7 +63,7 @@ export default function Timeline() {
             title: "First Contact",
             subtitle: "Caesarean Incursions 55 and 54 BCE.",
             content:
-                "Julius Caesar took two expeditionary forces into early Britain. During these incursions the Romans gained knowledge of the valuable resources found in southern Britain. They eventually negotiated a peace deal which advantaged the Romans. This led to the development of political and trading relationships amount some of the southern tribes and Rome though the northern tribes were largely wary and opposed.",
+                "Julius Caesar took two expeditionary forces into early Britain. During these incursions the Romans gained knowledge of the valuable resources found in southern Britain. They eventually negotiated a peace deal which advantaged the Romans. This led to the development of political and trading relationships among some of the southern tribes and Rome though the northern tribes were largely wary and opposed.",
             link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/romans-introduction/",
             detailPage: "/first-contact",
             imageLink:
@@ -106,7 +106,7 @@ export default function Timeline() {
             title: "Construction of Hadrian's Wall",
             subtitle: "The northern frontier is established.",
             content:
-                "Marks the shift from Roman expansion to Roman consolidation. They stopped trying to conquer the whole island and decided to fortify their existing position. Emperor Hadrian visited Britain personally in AD 122. He was famous for traveling his empire. The wall was intended not only to serve a defensive purpose, but also to separate the Romans from the barbarians and control cross-border movement/taxation. It stretched 73 miles (80 Roman miles) from the River Tyne (Newcastle) to the Solway Firth. Built mainly of stone in the east and turf in the west (later replaced by stone). Featured a 'Milecastle' every Roman mile and two turrets in between each milecastle. 14-17 major forts were built along the line of the wall to house troops. It remains the most significant monument of Roman Britain and defined the northern frontier for nearly 300 years.",
+                "Marks the shift from Roman expansion to Roman consolidation. They stopped trying to conquer the whole island and decided to fortify their existing position. Emperor Hadrian visited Britain personally in 122 CE. He was famous for traveling his empire. The wall was intended not only to serve a defensive purpose, but also to separate the Romans from the barbarians and control cross-border movement/taxation. It stretched 73 miles (80 Roman miles) from the River Tyne (Newcastle) to the Solway Firth. Built mainly of stone in the east and turf in the west (later replaced by stone). Featured a 'Milecastle' every Roman mile and two turrets in between each milecastle. 14-17 major forts were built along the line of the wall to house troops. It remains the most significant monument of Roman Britain and defined the northern frontier for nearly 300 years.",
             link: "/hadrians-wall",
             detailPage: "/construction-hadrians-wall",
             imageLink:
@@ -125,8 +125,9 @@ export default function Timeline() {
             title: "Severan Campaigns",
             subtitle: "The Imperial Court in York",
             content:
-                "For a brief period, the capital of the Roman Empire was effectively in York, not Rome. Septimius Severus, an African-born Emperor, arrived in Britain with his two sons (Caracalla and Geta) and a massive army. The northern tribes (Caledonians and Maeatae) were raiding. Severus wanted to conquer Scotland once and for all, succeeding where previous attempts failed. It was a brutal guerrilla war. The Romans cut down forests and built bridges to root out the enemy. The tribes refused to meet in open battle. Severus fell ill and died in Eboracum (York) in AD 211. Succession: His death caused a power struggle between his sons. They abandoned the Scottish conquest, made peace with the tribes, and returned to Rome. The border remained at Hadrian’s Wall.",
+                "For a brief period, the imperial court was based in York rather than Rome. Septimius Severus, an African-born Emperor, arrived in Britain with his two sons (Caracalla and Geta) and a massive army. The northern tribes (Caledonians and Maeatae) were raiding. Severus wanted to conquer Scotland once and for all, succeeding where previous attempts failed. It was a brutal guerrilla war. The Romans cut down forests and built bridges to root out the enemy. The tribes refused to meet in open battle. Severus fell ill and died in Eboracum (York) in 211 CE. Succession: His death caused a power struggle between his sons. They abandoned the Scottish conquest, made peace with the tribes, and returned to Rome. The border remained at Hadrian's Wall.",
             link: "https://www.archaeologyuk.org/resource/the-campaigns-of-septimius-severus-in-the-far-north-of-britain.html",
+            detailPage: "/severan-campaigns",
             imageLink:
                 "https://upload.wikimedia.org/wikipedia/commons/0/08/Portrait_of_family_of_Septimius_Severus_-_Altes_Museum_-_Berlin_-_Germany_2017.jpg"
         },
@@ -175,7 +176,7 @@ export default function Timeline() {
             subtitle:
                 "The official political separation of Britain from the Roman Empire.",
             content:
-                'The Empire was crumbling. Rome itself was under threat from Visigoths (sacked in 410 AD). Troops had been gradually withdrawn from Britain to protect Italy. The British towns, suffering from Saxon raids, wrote to Emperor Honorius asking for military support. The Emperor replied, telling the British cities to "look to their own defences."',
+                'The Empire was crumbling. Rome itself was under threat from Visigoths (sacked in 410 CE). Troops had been gradually withdrawn from Britain to protect Italy. The British towns, suffering from Saxon raids, wrote to Emperor Honorius asking for military support. The Emperor replied, telling the British cities to "look to their own defences."',
             link: "https://www.english-heritage.org.uk/learn/story-of-england/romans/end-of-roman-britain/",
             detailPage: "/end-roman-rule",
             imageLink:

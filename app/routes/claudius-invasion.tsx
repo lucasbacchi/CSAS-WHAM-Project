@@ -30,12 +30,13 @@ export default function ClaudiusInvasion() {
                 <p className="mb-4">
                     Emperor Claudius began his rule and was looked down upon
                     because he was slightly deaf and had a limp. Seeking to
-                    overcome his natural shortcomings he would pick up the plans
-                    of his murdered predecessor and continue the previous
-                    invasion preparations. This action would solidify his rule.
-                    On the back of the previous invasion preparations and its
-                    failures Claudius would find glory with a successful
-                    invasion. There were 2 major battles.
+                    overcome his natural shortcomings and legitimize his rule,
+                    he initiated a major invasion of Britain in 43 CE. Though
+                    his predecessor Caligula had made an abortive attempt to
+                    reach Britain, Claudius organized a serious military
+                    campaign. This successful invasion would bring him the
+                    military glory and prestige he needed to secure his position
+                    as Emperor.
                 </p>
 
                 <p className="mb-4">

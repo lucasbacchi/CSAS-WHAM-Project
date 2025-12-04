@@ -38,16 +38,17 @@ export default function ProclamationConstantine() {
 
                 <p className="mb-4">
                     Constantine's proclamation in York was significant beyond
-                    just his personal career. His mother Helena may have had
-                    connections to Britain, and his elevation as Emperor in this
+                    just his personal career. His elevation as Emperor in this
                     distant province underscored the importance of Britain to
-                    Roman military power. More importantly, Constantine later
-                    issued the Edict of Milan (313 CE), which legalized
-                    Christianity throughout the empire—a transformative event
-                    that would reshape European civilization. Constantine
-                    himself converted to Christianity late in life, making him a
-                    pivotal figure in the transition from pagan to Christian
-                    Rome.
+                    Roman military power and demonstrated the political
+                    influence of the British legions. More importantly,
+                    Constantine later issued the Edict of Milan (313 CE), which
+                    legalized Christianity throughout the empire—a
+                    transformative event that would reshape European
+                    civilization. Constantine himself was baptized on his
+                    deathbed in 337 CE, though he had favored Christianity from
+                    around 312 CE onward, making him a pivotal figure in the
+                    transition from pagan to Christian Rome.
                 </p>
 
                 <h3 className="text-xl font-semibold mb-2">Further Reading</h3>
