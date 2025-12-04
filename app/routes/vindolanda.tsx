@@ -1,9 +1,8 @@
 
-  import './vindolanda.css';
 
   export default function Vindolanda() {
     return (
-      <div className="page-container">
+      <div>
         <header>
           <h1>Deep Dive into Vindolanda</h1>
         </header>
@@ -19,16 +18,15 @@
             materials, making it one of the most important archaeological sites in Roman Britain.
           </p>
         </main>
-        <footer className="figure-wrapper">
-          <figure className="figure-side">
+        <footer>
+          <figure>
             <a href="https://en.wikipedia.org/wiki/Vindolanda" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://tse3.mm.bing.net/th/id/OIP.sZt8riZdaO42FVMPcQqVfwHaEc?rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3"
                 alt="Vindolanda Roman fort"
-                className="responsive-img"
               />
             </a>
-            <figcaption className="figure-caption-side">
+            <figcaption>
               Vindolanda Roman fort — site of remarkable organic finds and writing tablets. See the
               full article on <a href="https://en.wikipedia.org/wiki/Vindolanda" target="_blank" rel="noopener noreferrer">Wikipedia</a>.
             </figcaption>
