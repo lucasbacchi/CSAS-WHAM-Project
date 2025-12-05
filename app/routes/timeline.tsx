@@ -24,13 +24,14 @@ export default function Timeline() {
                 const element = document.getElementById(hash);
                 if (element) {
                     // Calculate target scroll position with 100px space above
-                    const elementTop = element.getBoundingClientRect().top + window.scrollY;
+                    const elementTop =
+                        element.getBoundingClientRect().top + window.scrollY;
                     const targetScroll = elementTop - 50;
-                    
-                    window.scrollTo({ top: targetScroll, behavior: 'smooth' });
+
+                    window.scrollTo({ top: targetScroll, behavior: "smooth" });
                 }
             };
-            
+
             // Initial attempt after timeline renders
             setTimeout(scrollToElement, 300);
             // Retry after a longer delay in case timeline is still loading
@@ -44,12 +45,17 @@ export default function Timeline() {
                     const element = document.getElementById(hash);
                     if (element) {
                         const rect = element.getBoundingClientRect();
-                        const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
-                        
+                        const isVisible =
+                            rect.top >= 0 && rect.bottom <= window.innerHeight;
+
                         // If element is no longer in viewport, clear the hash
                         if (!isVisible) {
-                            window.history.replaceState(null, '', window.location.pathname);
-                            window.removeEventListener('scroll', handleScroll);
+                            window.history.replaceState(
+                                null,
+                                "",
+                                window.location.pathname
+                            );
+                            window.removeEventListener("scroll", handleScroll);
                         }
                     }
                 }, 150);
@@ -57,11 +63,11 @@ export default function Timeline() {
 
             // Add scroll listener after initial scroll completes
             setTimeout(() => {
-                window.addEventListener('scroll', handleScroll);
+                window.addEventListener("scroll", handleScroll);
             }, 1000);
 
             return () => {
-                window.removeEventListener('scroll', handleScroll);
+                window.removeEventListener("scroll", handleScroll);
                 clearTimeout(scrollTimeout);
             };
         }
@@ -238,7 +244,10 @@ export default function Timeline() {
                     {events.map((event) => (
                         <VerticalTimelineElement
                             key={`${event.date}-${event.title}`}
-                            id={event.detailPage?.slice(1) || event.title.toLowerCase().replace(/\s+/g, '-')}
+                            id={
+                                event.detailPage?.slice(1) ||
+                                event.title.toLowerCase().replace(/\s+/g, "-")
+                            }
                             className={`vertical-timeline-element--${event.date}`}
                             date={event.date}
                             iconStyle={iconStyle}
@@ -252,7 +261,9 @@ export default function Timeline() {
                                 }
                             >
                                 {event.detailPage ? (
-                                    <NavLink to={event.detailPage}>{event.title}</NavLink>
+                                    <NavLink to={event.detailPage}>
+                                        {event.title}
+                                    </NavLink>
                                 ) : (
                                     event.title
                                 )}
@@ -270,11 +281,23 @@ export default function Timeline() {
             </div>
             <div className="flex flex-wrap gap-3 text-xl justify-center m-8">
                 <button
-                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    onClick={() =>
+                        window.scrollTo({ top: 0, behavior: "smooth" })
+                    }
                     className="group hover:cursor-pointer flex items-center gap-2 bg-linear-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-indigo-600 hover:to-purple-700"
                 >
-                    <svg className="w-5 h-5 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                    <svg
+                        className="w-5 h-5 group-hover:-translate-y-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M5 10l7-7m0 0l7 7m-7-7v18"
+                        />
                     </svg>
                     <span className="font-semibold">Back to Top</span>
                 </button>
