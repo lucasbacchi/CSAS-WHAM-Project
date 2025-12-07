@@ -39,15 +39,6 @@ export default function Resources() {
                         </li>
                     </ul>
                 </div>
-                {/*<p className="text-lg mb-4">
-                    Agriculture: Since the lowlands were ideal for growing grain, they were taxed heavily to feed the troops
-                </p>
-                <p className="text-lg mb-4">
-                    Mining: There was a large amount of extraction of lead, iron, and silver  from mines in various districts.
-                </p>
-                <p className="text-lg mb-4">
-                    Trade: Britain exported wheat, wool, and minerals. The Romans also imported luxury goods such as wine and tableware.
-                </p>*/}
 
                 <div className="flex items-stretch justify-around">
                     <img
