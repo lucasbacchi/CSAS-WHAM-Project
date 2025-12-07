@@ -1,4 +1,4 @@
-import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
+import {Links, Meta, NavLink, Outlet, Scripts, ScrollRestoration} from "react-router";
 
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
@@ -24,6 +24,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
                         Keirston Artis for CSAS 2000 at Wentworth Institute of
                         Technology.
                     </p>
+                    <NavLink to={"Works-Cited"}>
+                        Works Cited Page
+                    </NavLink>
                 </footer>
                 <ScrollRestoration />
                 <Scripts />

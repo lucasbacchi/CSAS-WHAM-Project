@@ -31,6 +31,7 @@ export default [
         ),
         route("great-conspiracy", "./routes/great-conspiracy.tsx"),
         route("end-roman-rule", "./routes/end-roman-rule.tsx"),
-        route("British-Resources", "./routes/resources.tsx")
+        route("British-Resources", "./routes/resources.tsx"),
+        route("Works-Cited", "./routes/Works-Cited.tsx")
     ])
 ] satisfies RouteConfig;
