@@ -208,11 +208,11 @@ export default function Culture() {
 
             <section className="mb-12">
                 <h2 className="text-3xl font-semibold mb-6 border-b-2 pb-2">
-                    Places To Visit
+                    Places To Visit: Travel the Culture!
                 </h2>
                 <div className="flex justify-center">
                     <iframe
-                        src="https://www.google.com/maps/d/edit?mid=1Iv0YPvL6yE1KmN_8jTEFESij0S-n9RE&usp=sharing"
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1Iv0YPvL6yE1KmN_8jTEFESij0S-n9RE&ehbc=2E312F"
                         width="640"
                         height="480"
                         className="rounded-lg shadow-lg w-full max-w-4xl"
