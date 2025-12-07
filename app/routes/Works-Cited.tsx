@@ -38,6 +38,8 @@ export default function Resources() {
                     <li>Heritage, English. “Emperor Hadrian.” English Heritage, www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/hadrian/.</li>
                     <li>“Cartimandua, Queen of the Brigantes.” English Heritage, www.english-heritage.org.uk/learn/histories/women-in-history/cartimandua/.</li>
                     <li>“Home.” London Museum, 2024, www.londonmuseum.org.uk/.</li>
+                    <li>“The Battle of Mons Graupius.” Uchicago.edu, 2024, penelope.uchicago.edu/encyclopaedia_romana/britannia/monsgraupius/monsgraupius.html.</li>
+                    <li>“The Roman Gask Project.” Archive.org, 2025, web.archive.org/web/20080329182931/www.theromangaskproject.org.uk/Pages/Introduction/Agricola-hecame.html. Accessed 7 Dec. 2025.</li>
                 </ul>
                 </div>
 
