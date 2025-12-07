@@ -206,6 +206,21 @@ export default function Culture() {
                 </div>
             </section>
 
+            <section className="mb-12">
+                <h2 className="text-3xl font-semibold mb-6 border-b-2 pb-2">
+                    Places To Visit
+                </h2>
+                <div className="flex justify-center">
+                    <iframe
+                        src="https://www.google.com/maps/d/edit?mid=1Iv0YPvL6yE1KmN_8jTEFESij0S-n9RE&usp=sharing"
+                        width="640"
+                        height="480"
+                        className="rounded-lg shadow-lg w-full max-w-4xl"
+                        title="Travel the culture!"
+                    />
+                </div>
+            </section>
+
             <NavLink
                 to="/"
                 className="inline-block mt-8 px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
