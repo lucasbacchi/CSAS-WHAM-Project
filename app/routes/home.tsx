@@ -167,55 +167,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/*<section className="mt-12 grid gap-8 md:grid-cols-3">
-                <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
-                    <h3 className="text-xl font-semibold">Key Sites</h3>
-                    <ul className="mt-3 space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                        <li>
-                            <strong>Hadrian's Wall</strong> — Frontier with
-                            forts, milecastles and civilian settlements.
-                        </li>
-                        <li>
-                            <strong>Vindolanda</strong> — Fort and settlement
-                            noted for wooden writing tablets and organic
-                            preservation.
-                        </li>
-                        <li>
-                            <strong>Bath (Aquae Sulis)</strong> — Spa-town built
-                            around thermal springs and monumental baths.
-                        </li>
-                        <li>
-                            <strong>Fishbourne</strong> — Large Roman residence
-                            famous for mosaics and formal gardens.
-                        </li>
-                    </ul>
-                </article>
-
-                <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
-                    <h3 className="text-xl font-semibold">Common Finds</h3>
-                    <p className="mt-3 text-sm text-gray-700 dark:text-gray-300">
-                        Pottery, coins, inscriptions, mosaics, building
-                        foundations, and organic remains provide dating,
-                        economic context and insight into daily life.
-                    </p>
-                </article>
-
-                <article className="rounded-lg border p-6 shadow-sm bg-white dark:bg-gray-800">
-                    <h3 className="text-xl font-semibold">Methods</h3>
-                    <ul className="mt-3 text-sm text-gray-700 dark:text-gray-300 space-y-2">
-                        <li>Stratigraphic excavation and careful recording</li>
-                        <li>
-                            Geophysical survey (magnetometry, resistivity) and
-                            LiDAR
-                        </li>
-                        <li>Radiocarbon and dendrochronology dating</li>
-                        <li>
-                            Environmental sampling and specialist conservation
-                        </li>
-                    </ul>
-                </article>
-            </section>*/}
-
             <section className="mt-12 mb-8">
                 <div className="bg-linear-to-r from-indigo-900 to-purple-800 rounded-lg p-8 shadow-xl text-white">
                     <div className="flex items-start gap-4">
