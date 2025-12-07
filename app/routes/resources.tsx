@@ -5,7 +5,7 @@ export default function Resources() {
         <div className="flex flex-row p-6 gap-4 min-h-screen items-stretch">
             <div>
                 <h2 className="text-2xl font-semibold mb-4">
-                    The Wealth of Resources in Rome
+                    The Wealth of Resources in Roman Britain
                 </h2>
                 <p className="text-lg mb-4">
                     The Roman economy in Britain was mainly agrarian (the
