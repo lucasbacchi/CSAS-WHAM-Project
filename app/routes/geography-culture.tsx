@@ -15,7 +15,8 @@ export default function GeographyCulture() {
                     className="w-full max-w-1/2 mx-auto h-auto rounded-lg shadow-lg"
                 />
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 text-center italic">
-                    Map of Roman Britain showing major settlements and roads. Credit: Wikimedia Commons
+                    Map of Roman Britain showing major settlements and roads.
+                    Credit: Wikimedia Commons
                 </p>
             </div>
 
@@ -36,18 +37,19 @@ export default function GeographyCulture() {
                             <li className="flex items-start">
                                 <span className="text-blue-500 mr-2">▪</span>
                                 <div>
-                                    <strong>Lowlands:</strong> The south, east, and midlands
-                                    were flat and suitable for farming/agriculture while
-                                    being open to the continent.
+                                    <strong>Lowlands:</strong> The south, east,
+                                    and midlands were flat and suitable for
+                                    farming/agriculture while being open to the
+                                    continent.
                                 </div>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-blue-500 mr-2">▪</span>
                                 <div>
-                                    <strong>Uplands:</strong> Devon, Cornwall, Wales, and
-                                    northern England, which were more than 600 feet above
-                                    sea level. They had deep valleys and mountainous
-                                    terrain.
+                                    <strong>Uplands:</strong> Devon, Cornwall,
+                                    Wales, and northern England, which were more
+                                    than 600 feet above sea level. They had deep
+                                    valleys and mountainous terrain.
                                 </div>
                             </li>
                         </ul>
@@ -58,27 +60,32 @@ export default function GeographyCulture() {
                             Resources and Economy
                         </h3>
                         <p className="mb-4">
-                            The Roman economy in Britain was mainly agrarian (the
-                            cultivation of land), with the army's needs increasing
-                            production.
+                            The Roman economy in Britain was mainly agrarian
+                            (the cultivation of land), with the army's needs
+                            increasing production.
                         </p>
                         <ul className="space-y-3">
                             <li className="flex items-start">
                                 <span className="text-green-500 mr-2">▪</span>
                                 <div>
-                                    <strong>Agriculture:</strong> Lowlands ideal for growing grain, heavily taxed to feed troops.
+                                    <strong>Agriculture:</strong> Lowlands ideal
+                                    for growing grain, heavily taxed to feed
+                                    troops.
                                 </div>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-green-500 mr-2">▪</span>
                                 <div>
-                                    <strong>Mining:</strong> Extraction of lead, iron, and silver from various districts.
+                                    <strong>Mining:</strong> Extraction of lead,
+                                    iron, and silver from various districts.
                                 </div>
                             </li>
                             <li className="flex items-start">
                                 <span className="text-green-500 mr-2">▪</span>
                                 <div>
-                                    <strong>Trade:</strong> Britain exported wheat, wool, and minerals; imported luxury goods.
+                                    <strong>Trade:</strong> Britain exported
+                                    wheat, wool, and minerals; imported luxury
+                                    goods.
                                 </div>
                             </li>
                         </ul>
@@ -91,16 +98,27 @@ export default function GeographyCulture() {
                     </h3>
                     <p className="mb-4">
                         The Romans initially governed the whole of Britain as a
-                        single province, but later divided it into multiple provinces:
+                        single province, but later divided it into multiple
+                        provinces:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
                         <div>
-                            <h4 className="font-semibold text-red-600 dark:text-red-400">Military Areas</h4>
-                            <p>The uplands served as military frontiers, with forts and strategic roads.</p>
+                            <h4 className="font-semibold text-red-600 dark:text-red-400">
+                                Military Areas
+                            </h4>
+                            <p>
+                                The uplands served as military frontiers, with
+                                forts and strategic roads.
+                            </p>
                         </div>
                         <div>
-                            <h4 className="font-semibold text-blue-600 dark:text-blue-400">Civil Areas</h4>
-                            <p>The lowlands were the scene of civil life, with towns and country houses.</p>
+                            <h4 className="font-semibold text-blue-600 dark:text-blue-400">
+                                Civil Areas
+                            </h4>
+                            <p>
+                                The lowlands were the scene of civil life, with
+                                towns and country houses.
+                            </p>
                         </div>
                     </div>
                     <p className="mt-4">
@@ -131,15 +149,20 @@ export default function GeographyCulture() {
                                 />
                             </div>
                             <div className="p-6 md:w-1/2">
-                                <h3 className="text-2xl font-semibold mb-3">Londinium (London)</h3>
+                                <h3 className="text-2xl font-semibold mb-3">
+                                    Londinium (London)
+                                </h3>
                                 <p>
-                                    Established by the Romans north of the valley of the Thames, Londinium
-                                    quickly became a center of commerce filled with traders.
-                                    It was sacked by Iceni tribesmen under Queen Boudicca in
-                                    60 CE but was later reconstructed with significant
-                                    structures like a great basilica. By the 3rd century,
-                                    Londinium was enclosed by a defensive wall and had
-                                    timber harbors with rebuilt public buildings.
+                                    Established by the Romans north of the
+                                    valley of the Thames, Londinium quickly
+                                    became a center of commerce filled with
+                                    traders. It was sacked by Iceni tribesmen
+                                    under Queen Boudicca in 60 CE but was later
+                                    reconstructed with significant structures
+                                    like a great basilica. By the 3rd century,
+                                    Londinium was enclosed by a defensive wall
+                                    and had timber harbors with rebuilt public
+                                    buildings.
                                 </p>
                             </div>
                         </div>
@@ -156,11 +179,15 @@ export default function GeographyCulture() {
                                 />
                             </div>
                             <div className="p-6 md:w-1/2">
-                                <h3 className="text-2xl font-semibold mb-3">Hadrian's Wall</h3>
+                                <h3 className="text-2xl font-semibold mb-3">
+                                    Hadrian's Wall
+                                </h3>
                                 <p>
-                                    A massive earthwork that stretches across the northern frontier of Britain,
-                                    it was built to protect against invasions and control the border between
-                                    Roman Britannia and Caledonia.
+                                    A massive earthwork that stretches across
+                                    the northern frontier of Britain, it was
+                                    built to protect against invasions and
+                                    control the border between Roman Britannia
+                                    and Caledonia.
                                 </p>
                             </div>
                         </div>
@@ -177,10 +204,14 @@ export default function GeographyCulture() {
                                 />
                             </div>
                             <div className="p-6 md:w-1/2">
-                                <h3 className="text-2xl font-semibold mb-3">Roman Baths</h3>
+                                <h3 className="text-2xl font-semibold mb-3">
+                                    Roman Baths
+                                </h3>
                                 <p>
-                                    A well-preserved Roman bathhouse that was built around naturally hot springs in
-                                    the 1st century. The site showcases the sophisticated engineering and social
+                                    A well-preserved Roman bathhouse that was
+                                    built around naturally hot springs in the
+                                    1st century. The site showcases the
+                                    sophisticated engineering and social
                                     importance of bathing in Roman culture.
                                 </p>
                             </div>
@@ -190,19 +221,25 @@ export default function GeographyCulture() {
                     {/* Other Sites Grid */}
                     <div className="grid md:grid-cols-2 gap-6">
                         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                            <h3 className="text-xl font-semibold mb-3">Camulodunnum</h3>
+                            <h3 className="text-xl font-semibold mb-3">
+                                Camulodunnum
+                            </h3>
                             <p>
-                                The first capital of the Roman province of Britannia, located in the heart of the
-                                county of Essex. An important military and civilian center in the early years of
-                                Roman occupation.
+                                The first capital of the Roman province of
+                                Britannia, located in the heart of the county of
+                                Essex. An important military and civilian center
+                                in the early years of Roman occupation.
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                            <h3 className="text-xl font-semibold mb-3">Aesica</h3>
+                            <h3 className="text-xl font-semibold mb-3">
+                                Aesica
+                            </h3>
                             <p>
-                                A Roman fort built in order to protect the Ravenglass to Brougham Roman Road and
-                                serve as a supply base for Hadrian's Wall, demonstrating the strategic military
-                                network.
+                                A Roman fort built in order to protect the
+                                Ravenglass to Brougham Roman Road and serve as a
+                                supply base for Hadrian's Wall, demonstrating
+                                the strategic military network.
                             </p>
                         </div>
                     </div>
@@ -217,32 +254,41 @@ export default function GeographyCulture() {
 
                 <div className="grid md:grid-cols-3 gap-6">
                     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                        <h3 className="text-xl font-semibold mb-3 text-purple-600 dark:text-purple-400">Religion</h3>
+                        <h3 className="text-xl font-semibold mb-3 text-purple-600 dark:text-purple-400">
+                            Religion
+                        </h3>
                         <p>
-                            There was a variety of religious cults, and people practiced
-                            Roman paganism. However, Christianity quickly took control
-                            as the main religion of Britain. Many pagan temples and
-                            shrines were converted into churches, and Christianity became
-                            the dominant religion in post-Roman Britain.
+                            There was a variety of religious cults, and people
+                            practiced Roman paganism. However, Christianity
+                            quickly took control as the main religion of
+                            Britain. Many pagan temples and shrines were
+                            converted into churches, and Christianity became the
+                            dominant religion in post-Roman Britain.
                         </p>
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                        <h3 className="text-xl font-semibold mb-3 text-orange-600 dark:text-orange-400">Language</h3>
+                        <h3 className="text-xl font-semibold mb-3 text-orange-600 dark:text-orange-400">
+                            Language
+                        </h3>
                         <p>
-                            The language of the town populations was mostly Latin,
-                            which became the language of administration, commerce,
-                            and the educated classes throughout Roman Britain.
+                            The language of the town populations was mostly
+                            Latin, which became the language of administration,
+                            commerce, and the educated classes throughout Roman
+                            Britain.
                         </p>
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                        <h3 className="text-xl font-semibold mb-3 text-teal-600 dark:text-teal-400">Art</h3>
+                        <h3 className="text-xl font-semibold mb-3 text-teal-600 dark:text-teal-400">
+                            Art
+                        </h3>
                         <p>
-                            Art included works made in Britain by British craftsmen as well
-                            as those made by artists from the Mediterranean and the
-                            Middle East. Roman Britain featured sculpture, fresco
-                            painting, mosaics, and carved objects.
+                            Art included works made in Britain by British
+                            craftsmen as well as those made by artists from the
+                            Mediterranean and the Middle East. Roman Britain
+                            featured sculpture, fresco painting, mosaics, and
+                            carved objects.
                         </p>
                     </div>
                 </div>
@@ -255,7 +301,9 @@ export default function GeographyCulture() {
                         className="w-full max-w-1/2 mx-auto h-auto rounded-lg shadow-lg"
                     />
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 text-center italic">
-                        Roman mosaic from Fishbourne Roman Palace, West Sussex - an example of Roman artistic achievement in Britain. Credit: Wikimedia Commons
+                        Roman mosaic from Fishbourne Roman Palace, West Sussex -
+                        an example of Roman artistic achievement in Britain.
+                        Credit: Wikimedia Commons
                     </p>
                 </div>
             </section>

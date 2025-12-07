@@ -35,7 +35,7 @@ export default function Home() {
                         </h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             {/* Internal Links */}
-                            <NavLink 
+                            <NavLink
                                 to="British-Resources"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-blue-500 to-blue-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-blue-700"
                             >
@@ -48,13 +48,23 @@ export default function Home() {
                                             Explore the wealth of Roman Britain
                                         </p>
                                     </div>
-                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    <svg
+                                        className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 5l7 7-7 7"
+                                        />
                                     </svg>
                                 </div>
                             </NavLink>
 
-                            <NavLink 
+                            <NavLink
                                 to="geography"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-purple-500 to-purple-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-purple-600 hover:to-purple-700"
                             >
@@ -67,13 +77,23 @@ export default function Home() {
                                             Explore the landscape and resources
                                         </p>
                                     </div>
-                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    <svg
+                                        className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 5l7 7-7 7"
+                                        />
                                     </svg>
                                 </div>
                             </NavLink>
 
-                            <NavLink 
+                            <NavLink
                                 to="culture"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-green-500 to-green-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-green-700"
                             >
@@ -86,13 +106,23 @@ export default function Home() {
                                             Discover art, religion, and language
                                         </p>
                                     </div>
-                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    <svg
+                                        className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 5l7 7-7 7"
+                                        />
                                     </svg>
                                 </div>
                             </NavLink>
 
-                            <NavLink 
+                            <NavLink
                                 to="vindolanda-tablets"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-amber-500 to-amber-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-amber-600 hover:to-amber-700"
                             >
@@ -105,8 +135,18 @@ export default function Home() {
                                             Explore the Vindolanda Tablets
                                         </p>
                                     </div>
-                                    <svg className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    <svg
+                                        className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 5l7 7-7 7"
+                                        />
                                     </svg>
                                 </div>
                             </NavLink>
@@ -121,7 +161,8 @@ export default function Home() {
                         className="w-full h-auto rounded-lg shadow-md"
                     />
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 text-center italic">
-                        Military bathhouse at Vindolanda Roman fort near Hadrian's Wall. Credit: Wikimedia Commons
+                        Military bathhouse at Vindolanda Roman fort near
+                        Hadrian's Wall. Credit: Wikimedia Commons
                     </p>
                 </div>
             </section>
@@ -179,17 +220,33 @@ export default function Home() {
                 <div className="bg-linear-to-r from-indigo-900 to-purple-800 rounded-lg p-8 shadow-xl text-white">
                     <div className="flex items-start gap-4">
                         <div className="shrink-0">
-                            <svg className="w-12 h-12 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            <svg
+                                className="w-12 h-12 text-amber-300"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                                />
                             </svg>
                         </div>
                         <div className="flex-1">
-                            <h3 className="text-2xl font-bold mb-3">Why Study Roman Britain?</h3>
+                            <h3 className="text-2xl font-bold mb-3">
+                                Why Study Roman Britain?
+                            </h3>
                             <p className="text-lg leading-relaxed text-indigo-50">
-                                Studying Roman Britain reveals crucial insights into imperial expansion, cultural exchange, 
-                                and technological innovation. Through archaeological evidence, we understand how Roman and 
-                                Celtic societies interacted, how infrastructure transformed landscapes, and how material 
-                                culture reflects social change across nearly four centuries of occupation.
+                                Studying Roman Britain reveals crucial insights
+                                into imperial expansion, cultural exchange, and
+                                technological innovation. Through archaeological
+                                evidence, we understand how Roman and Celtic
+                                societies interacted, how infrastructure
+                                transformed landscapes, and how material culture
+                                reflects social change across nearly four
+                                centuries of occupation.
                             </p>
                         </div>
                     </div>
