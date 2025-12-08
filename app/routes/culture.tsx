@@ -213,9 +213,7 @@ export default function Culture() {
                 <div className="flex justify-center">
                     <iframe
                         src="https://www.google.com/maps/d/u/0/embed?mid=1Iv0YPvL6yE1KmN_8jTEFESij0S-n9RE&ehbc=2E312F"
-                        width="640"
-                        height="480"
-                        className="rounded-lg shadow-lg w-full max-w-4xl"
+                        className="rounded-lg shadow-lg w-full min-h-150"
                         title="Travel the culture!"
                     />
                 </div>

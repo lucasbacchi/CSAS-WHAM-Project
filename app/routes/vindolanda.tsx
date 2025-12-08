@@ -42,7 +42,6 @@ export default function Vindolanda() {
                         </a>
                         .
                     </figcaption>
-
                 </figure>
                 <a href="/">Back Home</a>
             </div>

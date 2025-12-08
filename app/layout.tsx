@@ -1,4 +1,11 @@
-import {Links, Meta, NavLink, Outlet, Scripts, ScrollRestoration} from "react-router";
+import {
+    Links,
+    Meta,
+    NavLink,
+    Outlet,
+    Scripts,
+    ScrollRestoration
+} from "react-router";
 
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
@@ -19,13 +26,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <footer className="m-8 text-center text-sm text-gray-500">
                     <p>&copy; 2025 Archaeology of Roman Britain</p>
                     <br />
-                    <p>
+                    <p className="mb-4">
                         Created by Lucas Bacchi, Noah Yocum, Matt Chiu, and
                         Keirston Artis for CSAS 2000 at Wentworth Institute of
                         Technology.
                     </p>
-                    <NavLink to={"Works-Cited"}>
+                    <NavLink to={"works-cited"} className="p-4">
                         Works Cited Page
+                    </NavLink>
+                    <NavLink to={"sitemap"} className="p-4">
+                        Sitemap
                     </NavLink>
                 </footer>
                 <ScrollRestoration />

@@ -36,7 +36,7 @@ export default function Home() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             {/* Internal Links */}
                             <NavLink
-                                to="British-Resources"
+                                to="british-resources"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-blue-500 to-blue-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-blue-700"
                             >
                                 <div className="flex items-center justify-between">
