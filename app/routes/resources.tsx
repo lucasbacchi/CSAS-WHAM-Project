@@ -1,4 +1,16 @@
+import type { Route } from "./+types/resources";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Resources of Roman Britain" },
+        {
+            name: "description",
+            content:
+                "Explore the wealth of natural resources and economic activities in Roman Britain."
+        }
+    ];
+}
 
 export default function Resources() {
     return (

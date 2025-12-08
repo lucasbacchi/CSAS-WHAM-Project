@@ -1,3 +1,16 @@
+import type { Route } from "./+types/vindolanda";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Vindolanda - Deep Dive" },
+        {
+            name: "description",
+            content:
+                "Deep dive into Vindolanda, a Roman fort famous for its wooden writing tablets."
+        }
+    ];
+}
+
 export default function Vindolanda() {
     return (
         <>
@@ -42,7 +55,6 @@ export default function Vindolanda() {
                         </a>
                         .
                     </figcaption>
-
                 </figure>
                 <a href="/">Back Home</a>
             </div>

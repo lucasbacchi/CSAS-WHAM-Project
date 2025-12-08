@@ -1,4 +1,16 @@
-import {NavLink} from "react-router";
+import type { Route } from "./+types/vindolanda-tablets";
+import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "The Vindolanda Tablets" },
+        {
+            name: "description",
+            content:
+                "Explore the Vindolanda Tablets, remarkable artifacts revealing everyday life in Roman Britain."
+        }
+    ];
+}
 
 export default function VindolandaTablets() {
     return (
@@ -71,7 +83,6 @@ export default function VindolandaTablets() {
                             majority of them are held at the British Museum with
                             arrangements for some to be displayed at Vindolanda.
                         </p>
-
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
@@ -96,7 +107,7 @@ export default function VindolandaTablets() {
                 <div className="rounded-lg p-6 shadow-md">
                     <iframe
                         src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vTn29pXWSavARsgEAOk93fgK3Tz8SyQOLWGm5KmdlfmaAnfJEl7DKFDi119IXDfFjK9UUAqREY9DBE7%2Fpubhtml&dataYCol=totalcountcumulative&dataXCol=timeperiod&dataDateFormat=%25Y&chartDateFormat=%25Y&chartYLabel=Total%20Tablets%20Found%20(cumulative)&sliderCardTitleCol=discoveryevent&sliderCardTextCol=approximatenumberfound"
-                        style={{width: "100%", height: "650px"}}
+                        style={{ width: "100%", height: "650px" }}
                     ></iframe>
                 </div>
             </section>
@@ -108,8 +119,7 @@ export default function VindolandaTablets() {
                 </h2>
 
                 <div className="space-y-6">
-                    <div
-                        className="bg-linear-to-r from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-lg p-6 shadow-md">
+                    <div className="bg-linear-to-r from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-lg p-6 shadow-md">
                         <h3 className="text-2xl font-semibold mb-3 text-purple-600 dark:text-purple-400">
                             Personal Letters
                         </h3>
@@ -333,8 +343,7 @@ export default function VindolandaTablets() {
 
             {/* Related Content Section */}
             <section className="mb-12">
-                <div
-                    className="bg-linear-to-r from-green-50 to-teal-50 dark:from-gray-800 dark:to-gray-900 border-2 border-green-300 dark:border-green-700 rounded-lg p-8 shadow-lg">
+                <div className="bg-linear-to-r from-green-50 to-teal-50 dark:from-gray-800 dark:to-gray-900 border-2 border-green-300 dark:border-green-700 rounded-lg p-8 shadow-lg">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                         <div className="flex-1">
                             <h3 className="text-2xl font-semibold mb-3 text-green-800 dark:text-green-300">

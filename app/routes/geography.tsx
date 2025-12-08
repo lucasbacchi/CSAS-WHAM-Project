@@ -1,4 +1,16 @@
+import type { Route } from "./+types/geography";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Geography of Roman Britain" },
+        {
+            name: "description",
+            content:
+                "Discover the landscape, regions, and natural resources of Roman Britain."
+        }
+    ];
+}
 
 export default function Geography() {
     return (

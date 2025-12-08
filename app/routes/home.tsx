@@ -24,9 +24,9 @@ export default function Home() {
                     <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">
                         The Roman presence in Britain (c. 43-410 AD) left a
                         layered archaeological record of towns, forts, villas,
-                        roads and everyday objects. Below are key sites, common
-                        finds, and the methods archaeologists use to interpret
-                        the past.
+                        roads and everyday objects. Below are links to explore
+                        the culture, geography, resources, and key
+                        archaeological sites of Roman Britain.
                     </p>
 
                     <div className="mt-8">
@@ -36,7 +36,7 @@ export default function Home() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             {/* Internal Links */}
                             <NavLink
-                                to="British-Resources"
+                                to="british-resources"
                                 className="group relative overflow-hidden rounded-lg bg-linear-to-r from-blue-500 to-blue-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-blue-700"
                             >
                                 <div className="flex items-center justify-between">
@@ -133,6 +133,64 @@ export default function Home() {
                                         </h3>
                                         <p className="text-sm text-amber-100 mt-1">
                                             Explore the Vindolanda Tablets
+                                        </p>
+                                    </div>
+                                    <svg
+                                        className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 5l7 7-7 7"
+                                        />
+                                    </svg>
+                                </div>
+                            </NavLink>
+
+                            <NavLink
+                                to="hadrians-wall"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-red-500 to-red-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-red-600 hover:to-red-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            Hadrian's Wall
+                                        </h3>
+                                        <p className="text-sm text-red-100 mt-1">
+                                            The iconic Roman fortification
+                                        </p>
+                                    </div>
+                                    <svg
+                                        className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 5l7 7-7 7"
+                                        />
+                                    </svg>
+                                </div>
+                            </NavLink>
+
+                            <NavLink
+                                to="vindolanda"
+                                className="group relative overflow-hidden rounded-lg bg-linear-to-r from-teal-500 to-teal-600 p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-teal-600 hover:to-teal-700"
+                            >
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-lg font-semibold text-white">
+                                            Vindolanda Fort
+                                        </h3>
+                                        <p className="text-sm text-teal-100 mt-1">
+                                            Deep dive into Vindolanda
                                         </p>
                                     </div>
                                     <svg

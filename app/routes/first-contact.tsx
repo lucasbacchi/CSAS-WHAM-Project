@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 export function meta({}: Route.MetaArgs) {
     return [
         {
-            title: "First Contact - Caesar's Incursions | Roman Britain Timeline"
+            title: "First Contact | Roman Britain Timeline"
         },
         {
             name: "description",
