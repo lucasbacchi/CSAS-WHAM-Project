@@ -1,4 +1,16 @@
+import type { Route } from "./+types/vindolanda-tablets";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "The Vindolanda Tablets" },
+        {
+            name: "description",
+            content:
+                "Explore the Vindolanda Tablets, remarkable artifacts revealing everyday life in Roman Britain."
+        }
+    ];
+}
 
 export default function VindolandaTablets() {
     return (

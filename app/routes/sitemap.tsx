@@ -1,4 +1,16 @@
+import type { Route } from "./+types/sitemap";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Site Map - Archaeology of Roman Britain" },
+        {
+            name: "description",
+            content:
+                "Navigate through all pages of the Archaeology of Roman Britain project."
+        }
+    ];
+}
 
 export default function Sitemap() {
     return (

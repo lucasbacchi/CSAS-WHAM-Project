@@ -1,4 +1,16 @@
+import type { Route } from "./+types/culture";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Culture of Roman Britain" },
+        {
+            name: "description",
+            content:
+                "Explore the religious, linguistic, and artistic aspects of Roman Britain's culture."
+        }
+    ];
+}
 
 export default function Culture() {
     return (

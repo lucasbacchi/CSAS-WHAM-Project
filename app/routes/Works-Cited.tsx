@@ -1,4 +1,16 @@
+import type { Route } from "./+types/Works-Cited";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Works Cited - Roman Britain Project" },
+        {
+            name: "description",
+            content:
+                "Complete bibliography and works cited for the Archaeology of Roman Britain project."
+        }
+    ];
+}
 
 export default function Resources() {
     return (

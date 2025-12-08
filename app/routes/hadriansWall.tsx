@@ -1,4 +1,16 @@
+import type { Route } from "./+types/hadriansWall";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Hadrian's Wall" },
+        {
+            name: "description",
+            content:
+                "Learn about Hadrian's Wall, the iconic Roman frontier fortification in Britain."
+        }
+    ];
+}
 
 export default function HadriansWall() {
     return (

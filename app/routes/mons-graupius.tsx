@@ -1,4 +1,16 @@
+import type { Route } from "./+types/mons-graupius";
 import { NavLink } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "Battle of Mons Graupius | Roman Britain Timeline" },
+        {
+            name: "description",
+            content:
+                "The Battle of Mons Graupius and Rome's attempt to occupy Scotland."
+        }
+    ];
+}
 
 export default function MonsGraupius() {
     return (
