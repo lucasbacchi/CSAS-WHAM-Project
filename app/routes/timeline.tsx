@@ -145,7 +145,7 @@ export default function Timeline() {
             link: "/hadrians-wall",
             detailPage: "/construction-hadrians-wall",
             imageLink:
-                "https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/housesteads-roman-fort/housesteads-crags-hadrians-wall-c-roger-clegg-hwhl.jpg"
+                "https://www.celtictrailswalkingholidays.co.uk/wp-content/uploads/hadrianswall_152-1024x576.jpg"
         },
         // {
         //     date: "200",
@@ -164,7 +164,7 @@ export default function Timeline() {
             link: "https://www.archaeologyuk.org/resource/the-campaigns-of-septimius-severus-in-the-far-north-of-britain.html",
             detailPage: "/severan-campaigns",
             imageLink:
-                "https://upload.wikimedia.org/wikipedia/commons/0/08/Portrait_of_family_of_Septimius_Severus_-_Altes_Museum_-_Berlin_-_Germany_2017.jpg"
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Portrait_of_family_of_Septimius_Severus_-_Altes_Museum_-_Berlin_-_Germany_2017.jpg/960px-Portrait_of_family_of_Septimius_Severus_-_Altes_Museum_-_Berlin_-_Germany_2017.jpg"
         },
         {
             date: "286-296 CE",
@@ -192,7 +192,7 @@ export default function Timeline() {
             link: "https://www.historyofyork.org.uk/themes/constantine-the-great",
             detailPage: "/proclamation-constantine",
             imageLink:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg/1430px-Statua_di_Costantino_ai_musei_capitolini.jpg"
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg/500px-Statua_di_Costantino_ai_musei_capitolini.jpg"
         },
         {
             date: "367 CE",

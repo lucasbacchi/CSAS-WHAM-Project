@@ -214,7 +214,7 @@ export default function Home() {
 
                 <div className="order-first md:order-last">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Vindolanda_bathhouse_-_2007-05-19.jpg/1024px-Vindolanda_bathhouse_-_2007-05-19.jpg"
                         alt="Military bathhouse at Vindolanda"
                         className="w-full h-auto rounded-lg shadow-md"
                     />
